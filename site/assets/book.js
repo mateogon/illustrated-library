@@ -23,7 +23,7 @@ function render(library, edition) {
 
   const contents = h('section', { 'aria-labelledby': 'contents-h' },
     h('h2', { id: 'contents-h' }, 'Contents'),
-    h('p', { class: 'loading', style: 'text-align:left;padding:0' }, 'Loading chapters…'));
+    h('p', { class: 'loading', style: 'text-align:left;padding:0' }, 'Loading contents…'));
 
   app.replaceChildren(
     siteHeader(),
@@ -38,7 +38,7 @@ function render(library, edition) {
         edition.description ? h('p', { class: 'description' }, edition.description) : null,
         edition.editionNote ? h('p', { class: 'edition-note' }, edition.editionNote) : null,
         h('p', { class: 'stats' }, [
-          countLabel(edition.sectionCount, 'chapter'),
+          countLabel(edition.sectionCount, 'section'),
           illustrationSummary(edition),
         ].filter(Boolean).join(' · ')),
         h('div', { class: 'actions' },
@@ -69,7 +69,7 @@ function render(library, edition) {
     siteFooter());
 
   loadEdition(edition).then((data) => renderContents(contents, edition, data)).catch((error) => {
-    contents.querySelector('.loading').textContent = `Chapters could not be loaded: ${error.message}`;
+    contents.querySelector('.loading').textContent = `Contents could not be loaded: ${error.message}`;
   });
 }
 
@@ -142,7 +142,7 @@ function renderContents(container, edition, data) {
   });
   const list = h('ol', { class: 'toc-list' }, items);
   const body = items.length > 30
-    ? h('details', { class: 'contents' }, h('summary', {}, `Show all ${items.length} chapters`), list)
+    ? h('details', { class: 'contents' }, h('summary', {}, `Show all ${items.length} sections`), list)
     : list;
   container.replaceChildren(container.firstChild, body);
 }

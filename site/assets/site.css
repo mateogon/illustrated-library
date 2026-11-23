@@ -487,3 +487,8 @@ body.page-tour { background: var(--stage); color: var(--stage-ink); overflow: hi
 .illustration.line-art img { border-radius: 6px; max-height: 75vh; }
 .lightbox img.line-art { width: auto; height: auto; max-width: 96%; max-height: 100%; margin: auto; border-radius: 6px; }
 .filmstrip img.line-art { padding: 3px; object-fit: contain; }
+.stage { grid-template-rows: minmax(0, 1fr); grid-template-columns: minmax(0, 1fr); overflow: hidden; }
+.stage img { min-height: 0; min-width: 0; }
+@media (max-width: 760px) { .stage { grid-template-rows: auto; } }
+.reader .flash { background: var(--accent-soft); border-radius: 4px; transition: background 0.6s; }
+.reader [id] { scroll-margin-top: 70px; }

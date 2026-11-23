@@ -12,7 +12,7 @@ try {
   if (!edition) throw new Error('This book is not in the library. It may have moved or the link may be incomplete.');
   app.replaceChildren(h('p', { class: 'loading' }, `Loading ${edition.title}…`));
   const data = await loadEdition(edition);
-  if (!data.sections.length) throw new Error('This edition has no chapters yet.');
+  if (!data.sections.length) throw new Error('This edition has no sections yet.');
   startReader(edition, data);
 } catch (error) {
   showError(app, error);
@@ -94,12 +94,28 @@ function startReader(edition, data) {
     larger.disabled = sizeIndex === TEXT_SIZES.length - 1;
   }
 
+  // Accepts "#ill-<id>" (our figure ids) and a bare "#<id>" (the illustration id itself).
+  function illustrationFromHash() {
+    if (!location.hash) return null;
+    let raw;
+    try { raw = decodeURIComponent(location.hash.slice(1)); } catch { return null; }
+    const candidates = raw.startsWith('ill-') ? [raw.slice(4), raw] : [raw];
+    for (const id of candidates) {
+      const index = sections.findIndex((s) => s.blocks.some((b) => b.type === 'illustration' && String(b.id) === id));
+      if (index > -1) return { id, index };
+    }
+    return null;
+  }
+
   function indexFromUrl() {
     const wanted = params().get('section');
+    const fromHash = illustrationFromHash();
     if (wanted !== null) {
       const found = sections.findIndex((s) => String(s.id) === wanted);
-      if (found > -1) return { index: found, explicit: true };
+      const holdsHash = fromHash && sections[found]?.blocks.some((b) => b.type === 'illustration' && String(b.id) === fromHash.id);
+      if (found > -1 && (!fromHash || holdsHash)) return { index: found, explicit: true };
     }
+    if (fromHash) return { index: fromHash.index, explicit: true };
     const saved = getProgress(edition.id);
     const savedIndex = saved ? sections.findIndex((s) => String(s.id) === String(saved.section)) : -1;
     return { index: Math.max(0, savedIndex), explicit: false, scroll: savedIndex > -1 ? saved.scroll : 0 };
@@ -164,7 +180,7 @@ function startReader(edition, data) {
   function figure(block) {
     const img = h('img', {
       src: block.src, alt: block.alt || block.title || 'Illustration', loading: 'lazy', decoding: 'async',
-      width: block.width || 1200, height: block.height || 800,
+      width: block.width || (isLineArt(block) ? null : 1200), height: block.height || (isLineArt(block) ? null : 800),
     });
     return h('figure', { class: isLineArt(block) ? 'illustration line-art' : 'illustration', id: `ill-${block.id}` },
       h('button', {
@@ -190,12 +206,20 @@ function startReader(edition, data) {
   // Remove scripts, inline handlers and links that pointed at other files of the source EPUB.
   function sanitise(fragment) {
     fragment.querySelectorAll('script, style, link, meta, iframe, object, embed').forEach((el) => el.remove());
+    // Empty <figure id="illustration-N"> anchors from the source would add blank space and steal hash links.
+    for (const fig of fragment.querySelectorAll('figure')) {
+      if (!fig.textContent.trim() && !fig.querySelector('img, svg, picture, video')) fig.remove();
+    }
     for (const el of fragment.querySelectorAll('*')) {
       for (const attr of [...el.attributes]) {
         if (/^on/i.test(attr.name)) el.removeAttribute(attr.name);
       }
     }
-    for (const a of fragment.querySelectorAll('a[href]')) {
+    for (const a of fragment.querySelectorAll('a[data-section-id]')) {
+      const hash = a.dataset.fragment ? `#${encodeURIComponent(a.dataset.fragment)}` : '';
+      a.setAttribute('href', readUrl(edition.id, a.dataset.sectionId) + hash);
+    }
+    for (const a of fragment.querySelectorAll('a[href]:not([data-section-id])')) {
       const href = a.getAttribute('href');
       if (/^\s*javascript:/i.test(href)) a.removeAttribute('href');
       else if (/^(https?:|mailto:)/i.test(href)) a.rel = 'noopener';
@@ -235,9 +259,53 @@ function startReader(edition, data) {
 
   addEventListener('popstate', () => {
     const { index } = indexFromUrl();
-    show(index);
-    window.scrollTo(0, 0);
+    if (index !== current) show(index);
+    if (!revealFragment(hashFragment())) window.scrollTo(0, 0);
   });
+
+  // Cross-section links from the source (notes, list of illustrations) carry
+  // data-section-id and data-fragment. Switch section, then go to the fragment.
+  article.addEventListener('click', (event) => {
+    const link = event.target.closest('a[data-section-id]');
+    if (!link || event.defaultPrevented || event.button !== 0
+      || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const index = sections.findIndex((section) => String(section.id) === link.dataset.sectionId);
+    if (index < 0) return;
+    event.preventDefault();
+    navigateTo(index, link.dataset.fragment || '');
+  });
+
+  function navigateTo(index, fragment) {
+    if (index !== current) show(index);
+    const target = revealFragment(fragment);
+    if (!target) window.scrollTo(0, 0);
+    history.pushState({ index }, '', readUrl(edition.id, sections[index].id) + (target ? `#${encodeURIComponent(target.id)}` : ''));
+    article.focus({ preventScroll: true });
+    save();
+  }
+
+  function hashFragment() {
+    return location.hash ? safeDecode(location.hash.slice(1)) : '';
+  }
+
+  // Resolves a fragment in the rendered section: our figure ("ill-<id>" or the bare
+  // illustration id, historical ones included) or any element id kept from the source HTML.
+  function fragmentTarget(fragment) {
+    if (!fragment) return null;
+    const bare = fragment.startsWith('ill-') ? fragment.slice(4) : fragment;
+    const byId = (id) => article.querySelector(`#${CSS.escape(id)}`);
+    return byId(`ill-${bare}`) || byId(fragment);
+  }
+
+  function revealFragment(fragment) {
+    const target = fragmentTarget(fragment);
+    if (!target) return null;
+    keepCentred(target);
+    const mark = target.classList.contains('illustration') ? 'highlight' : 'flash';
+    target.classList.add(mark);
+    setTimeout(() => target.classList.remove(mark), 2500);
+    return target;
+  }
 
   addEventListener('keydown', (event) => {
     if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || isTyping(event)) return;
@@ -253,23 +321,39 @@ function startReader(edition, data) {
   const start = indexFromUrl();
   show(start.index);
   history.replaceState({ index: start.index }, '', readUrl(edition.id, sections[start.index].id) + location.hash);
-  requestAnimationFrame(() => {
-    const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+  // Run now rather than in requestAnimationFrame: frames do not fire in background tabs.
+  (() => {
+    const target = revealFragment(hashFragment());
     if (target) {
-      target.scrollIntoView({ block: 'center' });
-      if (target.classList.contains('illustration')) {
-        target.classList.add('highlight');
-        const img = target.querySelector('img');
-        if (img && !img.complete) img.addEventListener('load', () => target.scrollIntoView({ block: 'center' }), { once: true });
-        setTimeout(() => target.classList.remove('highlight'), 2500);
-      }
+      history.replaceState(history.state, '', `${location.pathname}${location.search}#${encodeURIComponent(target.id)}`);
     } else if (!start.explicit && start.scroll > 0) {
       const restore = () => scrollTo(0, start.scroll * (document.documentElement.scrollHeight - innerHeight));
       restore();
       addEventListener('load', restore, { once: true });
     }
     save();
-  });
+  })();
+}
+
+// Images above the target load lazily and change the layout; re-centre the target
+// until they have loaded or the reader starts scrolling on their own.
+function keepCentred(target) {
+  const centre = () => target.scrollIntoView({ block: 'center' });
+  const above = [...document.querySelectorAll('.reader img')].filter(
+    (img) => img.compareDocumentPosition(target) & Node.DOCUMENT_POSITION_FOLLOWING || target.contains(img));
+  above.forEach((img) => { img.loading = 'eager'; });
+  let active = true;
+  const stop = () => { active = false; };
+  for (const type of ['wheel', 'touchstart', 'keydown', 'pointerdown']) addEventListener(type, stop, { once: true, passive: true });
+  setTimeout(stop, 6000);
+  for (const img of above) {
+    if (!img.complete) img.addEventListener('load', () => { if (active) centre(); }, { once: true });
+  }
+  centre();
+}
+
+function safeDecode(value) {
+  try { return decodeURIComponent(value); } catch { return value; }
 }
 
 function clamp(value, min, max) {

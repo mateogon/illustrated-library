@@ -92,7 +92,7 @@ function workCard(group, editions) {
 function editionRow(edition) {
   const progress = getProgress(edition.id);
   const meta = [
-    countLabel(edition.sectionCount, 'chapter'),
+    countLabel(edition.sectionCount, 'section'),
     illustrationSummary(edition),
     edition.translator ? `Translated by ${edition.translator}` : '',
   ].filter(Boolean).join(' · ');
