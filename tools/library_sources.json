@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": 1,
+  "works": [
+    {
+      "id": "a-christmas-carol",
+      "title": "A Christmas Carol",
+      "description": "A miser receives three visitors on Christmas Eve and faces the choices that shaped his life.",
+      "editionIds": [
+        "a-christmas-carol-en",
+        "el-cantico-de-navidad-barthe-1883-es"
+      ]
+    },
+    {
+      "id": "alices-adventures-in-wonderland",
+      "title": "Alice’s Adventures in Wonderland",
+      "description": "Alice follows a white rabbit into a world of impossible rules and curious company.",
+      "editionIds": [
+        "alices-adventures-in-wonderland-en",
+        "alicia-gutierrez-gili-1927-es"
+      ]
+    },
+    {
+      "id": "anne-of-green-gables",
+      "title": "Anne of Green Gables",
+      "description": "An imaginative orphan finds a home and makes her own place in a small Prince Edward Island community.",
+      "editionIds": [
+        "anne-of-green-gables-en"
+      ]
+    },
+    {
+      "id": "don-quijote",
+      "title": "Don Quixote",
+      "description": "A would-be knight and his squire set out across Spain in search of adventures.",
+      "editionIds": [
+        "don-quijote-en",
+        "don-quijote-es"
+      ]
+    },
+    {
+      "id": "leyendas-becquer",
+      "title": "Legends by Gustavo Adolfo Bécquer",
+      "description": "Twelve tales of mystery, desire, and the supernatural, told through Spanish places and traditions.",
+      "editionIds": [
+        "leyendas-becquer-en",
+        "leyendas-becquer-es"
+      ]
+    },
+    {
+      "id": "the-hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "description": "Sherlock Holmes and Dr. Watson investigate a family legend on the Devon moor.",
+      "editionIds": [
+        "the-hound-of-the-baskervilles-en"
+      ]
+    },
+    {
+      "id": "lazarillo",
+      "title": "Lazarillo de Tormes",
+      "description": "Lázaro recounts his life in the service of a succession of masters in sixteenth-century Spain.",
+      "editionIds": [
+        "lazarillo-en",
+        "lazarillo-es"
+      ]
+    },
+    {
+      "id": "the-time-machine",
+      "title": "The Time Machine",
+      "description": "A Victorian inventor travels into the distant future and discovers how much the world has changed.",
+      "editionIds": [
+        "the-time-machine-en"
+      ]
+    },
+    {
+      "id": "treasure-island",
+      "title": "Treasure Island",
+      "description": "A young innkeeper’s son joins a voyage in search of a pirate’s buried treasure.",
+      "editionIds": [
+        "treasure-island-en",
+        "treasure-island-es-caballero-1901"
+      ]
+    },
+    {
+      "id": "sub-terra",
+      "title": "Sub terra",
+      "description": "Eight stories set in and around the coal mines of Lota in Chile.",
+      "editionIds": [
+        "sub-terra-es"
+      ]
+    }
+  ],
+  "editions": [
+    {
+      "id": "a-christmas-carol-en",
+      "workId": "a-christmas-carol",
+      "title": "A Christmas Carol",
+      "language": "en",
+      "author": "Charles Dickens",
+      "translator": null,
+      "description": "A miser receives three visitors on Christmas Eve and faces the choices that shaped his life.",
+      "editionNote": "Standard Ebooks text based on a 1900 G. P. Putnam’s Sons printing. Includes Dickens’s preface.",
+      "rights": {
+        "chile": "Charles Dickens died in 1870. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1843. The maximum 95-year publication term has expired.",
+        "terms": "Standard Ebooks’ contributions are dedicated under CC0 1.0. Digital provider credited in source records.",
+        "transcriptionLicense": "CC0-1.0",
+        "includedLayers": "Historical prose and the author’s preface. The modern cover art is excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Standard Ebooks edition",
+            "url": "https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol"
+          },
+          {
+            "label": "Pinned digital source",
+            "url": "https://codeload.github.com/standardebooks/charles-dickens_a-christmas-carol/zip/2b37c1cc1f4db69e7806816893afbadba9fa8da7"
+          },
+          {
+            "label": "Standard Ebooks colophon",
+            "url": "https://github.com/standardebooks/charles-dickens_a-christmas-carol/blob/2b37c1cc1f4db69e7806816893afbadba9fa8da7/src/epub/text/colophon.xhtml"
+          },
+          {
+            "label": "Historical scan",
+            "url": "https://archive.org/details/christmascarol00dick2"
+          },
+          {
+            "label": "Original publication record",
+            "url": "https://www.themorgan.org/printed-books/168652"
+          },
+          {
+            "label": "Standard Ebooks public domain policy",
+            "url": "https://standardebooks.org/about/standard-ebooks-and-the-public-domain"
+          },
+          {
+            "label": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "b547567362cb4a2cf929a88849ed1ddf174de48e47453727647afa5a16a85e2d",
+      "inputSha256": {
+        "Color": "8100d0594b4b3a42c7663bf93379f9e263b68c9cae9941a9214395906f127c11",
+        "BOOX": "00d76918cd768d4cc07bcd7185bb3888fa14bc53c63af71cce23c8373e67a3bd"
+      },
+      "inputIllustrations": 15,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "alices-adventures-in-wonderland-en",
+      "workId": "alices-adventures-in-wonderland",
+      "title": "Alice’s Adventures in Wonderland",
+      "language": "en",
+      "author": "Lewis Carroll",
+      "translator": null,
+      "description": "Alice follows a white rabbit into a world of impossible rules and curious company.",
+      "editionNote": "Standard Ebooks text based on Harper & Brothers, 1901, with John Tenniel’s historical illustrations.",
+      "rights": {
+        "chile": "Lewis Carroll died in 1898. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved. John Tenniel’s historical art is also in the common cultural heritage.",
+        "unitedStates": "The latest historical text or translation used here dates to 1865. The maximum 95-year publication term has expired. The historical art by John Tenniel first appeared in 1865/1866.",
+        "terms": "Standard Ebooks’ contributions are dedicated under CC0 1.0. Digital provider credited in source records.",
+        "transcriptionLicense": "CC0-1.0",
+        "includedLayers": "Historical prose, epigraph, and 42 John Tenniel illustrations first published in 1865/1866. Tenniel died in 1914. Standard Ebooks’ vectors and alt text are CC0. The modern cover art and Peter Newell illustrations are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Standard Ebooks edition",
+            "url": "https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel"
+          },
+          {
+            "label": "Pinned digital source",
+            "url": "https://codeload.github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/zip/8da5cac1a4ec2c811322eff79daa5e11e851a813"
+          },
+          {
+            "label": "Standard Ebooks colophon",
+            "url": "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/blob/8da5cac1a4ec2c811322eff79daa5e11e851a813/src/epub/text/colophon.xhtml"
+          },
+          {
+            "label": "Historical scan",
+            "url": "https://archive.org/details/adventuresalices00carrrich"
+          },
+          {
+            "label": "Original publication record",
+            "url": "https://blogs.loc.gov/loc/2016/05/lcm-page-from-the-past-alices-adventures-in-the-library-of-congress/"
+          },
+          {
+            "label": "Standard Ebooks public domain policy",
+            "url": "https://standardebooks.org/about/standard-ebooks-and-the-public-domain"
+          },
+          {
+            "label": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          {
+            "label": "John Tenniel illustrations, Library of Congress",
+            "url": "https://www.loc.gov/item/30004663/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "0a1a85901ea11ff194b95d85768a0bfe46b95dcd4c22fc957f1c699850612314",
+      "inputSha256": {
+        "Color": "43bddedad17226707cf31d8e676552c70d5c937b656c33d9c2c799546eb0dfef",
+        "BOOX": "b3bd33f436c500b8c16b148ad19bf3f1cc8d8bda1dd829b44b6a32805c5cff7f"
+      },
+      "inputIllustrations": 15,
+      "historicalIllustrations": 42
+    },
+    {
+      "id": "anne-of-green-gables-en",
+      "workId": "anne-of-green-gables",
+      "title": "Anne of Green Gables",
+      "language": "en",
+      "author": "L. M. Montgomery",
+      "translator": null,
+      "description": "An imaginative orphan finds a home and makes her own place in a small Prince Edward Island community.",
+      "editionNote": "Standard Ebooks text based on L. C. Page & Company, Boston, 1908.",
+      "rights": {
+        "chile": "L. M. Montgomery died in 1942. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1908. The maximum 95-year publication term has expired.",
+        "terms": "Standard Ebooks’ contributions are dedicated under CC0 1.0. Digital provider credited in source records.",
+        "transcriptionLicense": "CC0-1.0",
+        "includedLayers": "Historical prose. The illustrated scan and the modern cover art are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Standard Ebooks edition",
+            "url": "https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables"
+          },
+          {
+            "label": "Pinned digital source",
+            "url": "https://codeload.github.com/standardebooks/l-m-montgomery_anne-of-green-gables/zip/c721547c6b8cb908391b562dd3db67208177d83d"
+          },
+          {
+            "label": "Standard Ebooks colophon",
+            "url": "https://github.com/standardebooks/l-m-montgomery_anne-of-green-gables/blob/c721547c6b8cb908391b562dd3db67208177d83d/src/epub/text/colophon.xhtml"
+          },
+          {
+            "label": "Original publication record and scan",
+            "url": "https://catalog.hathitrust.org/Record/100762551"
+          },
+          {
+            "label": "Standard Ebooks public domain policy",
+            "url": "https://standardebooks.org/about/standard-ebooks-and-the-public-domain"
+          },
+          {
+            "label": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "93f266bb902c6260b1fb66aa93760ba2a677ca50d21e2ec900516b1fec88504d",
+      "inputSha256": {
+        "Color": "b592fce86131d22c947dd6774dc55cb3c024eebc62c949a55928b572c272d8c5",
+        "BOOX": "2c27e0136e3a83232e8e18d9840862e8b03797690d421285fa64236f2b096aee"
+      },
+      "inputIllustrations": 35,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "don-quijote-en",
+      "workId": "don-quijote",
+      "title": "Don Quixote",
+      "language": "en",
+      "author": "Miguel de Cervantes Saavedra",
+      "translator": "John Ormsby",
+      "description": "A would-be knight and his squire set out across Spain in search of adventures.",
+      "editionNote": "John Ormsby’s translation first published by Smith, Elder & Co., London, 1885. Project Gutenberg transcription no. 996.",
+      "rights": {
+        "chile": "Miguel de Cervantes Saavedra died in 1616. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. The translation term has expired for John Ormsby (died 1895). Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1885. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded.",
+        "transcriptionLicense": null,
+        "includedLayers": "All 126 chapters with dedications, Cervantes’s prefaces, and verse preserved in this transcription. Ormsby’s introductory essay and the digital edition’s art from a different 1880 edition are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/996"
+          },
+          {
+            "label": "Text witness",
+            "url": "https://www.gutenberg.org/files/996/996-h/996-h.htm"
+          },
+          {
+            "label": "Printed edition record",
+            "url": "https://kohaopac.franzmayer.org.mx/bib/3079"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "2c384f2a53d814c28f87bb9607a07011a751a56e3bedc7ddc8ba29c974d1c7b0",
+      "inputSha256": {
+        "Color": "ed5c159720b2e32ac787d9018de02cd907af362c49b9acf48c1ddc762d5d4ff1",
+        "BOOX": "18f029f87deaeb95145e4781404b07f11edb268a218282e0a18998018e5d1e8c"
+      },
+      "inputIllustrations": 130,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "leyendas-becquer-en",
+      "workId": "leyendas-becquer",
+      "title": "Legends (twelve tales)",
+      "language": "en",
+      "author": "Gustavo Adolfo Bécquer",
+      "translator": "Cornelia Frances Bates and Katharine Lee Bates",
+      "description": "Twelve tales of mystery, desire, and the supernatural, told through Spanish places and traditions.",
+      "editionNote": "Cornelia Frances Bates and Katharine Lee Bates’s translation, Thomas Y. Crowell, New York, 1909.",
+      "rights": {
+        "chile": "Gustavo Adolfo Bécquer died in 1870. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. The translation term has expired for Cornelia Frances Bates and Katharine Lee Bates (died 1908 and 1929). Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1909. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded.",
+        "transcriptionLicense": null,
+        "includedLayers": "Twelve complete tales from Romantic Legends of Spain, reordered to match the 1912 Spanish selection. The other nine tales, prefaces, biography, source art, and cover are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/50044"
+          },
+          {
+            "label": "Text witness",
+            "url": "https://www.gutenberg.org/files/50044/50044-h/50044-h.htm"
+          },
+          {
+            "label": "Printed edition record",
+            "url": "https://lccn.loc.gov/09023730"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "681e1d30d1dc47b7866e050ce762f8a713c8b6904cd448d292372068cb79e4bd",
+      "inputSha256": {
+        "Color": "0f12fd5eda0810a4f1f09a92b83a64809321e14362fc3001df07e643fd27ea94",
+        "BOOX": "45effbe3184e691812768ff35dbe33edc1cd9d1b5e91eece9063ff184695cc67"
+      },
+      "inputIllustrations": 25,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "the-hound-of-the-baskervilles-en",
+      "workId": "the-hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "language": "en",
+      "author": "Arthur Conan Doyle",
+      "translator": null,
+      "description": "Sherlock Holmes and Dr. Watson investigate a family legend on the Devon moor.",
+      "editionNote": "Standard Ebooks text based on George Newnes, London, 1902.",
+      "rights": {
+        "chile": "Arthur Conan Doyle died in 1930. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1902. The maximum 95-year publication term has expired.",
+        "terms": "Standard Ebooks’ contributions are dedicated under CC0 1.0. Digital provider credited in source records.",
+        "transcriptionLicense": "CC0-1.0",
+        "includedLayers": "Historical prose and dedication. The modern cover art and illustrations from the scanned edition are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Standard Ebooks edition",
+            "url": "https://standardebooks.org/ebooks/arthur-conan-doyle/the-hound-of-the-baskervilles"
+          },
+          {
+            "label": "Pinned digital source",
+            "url": "https://codeload.github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/zip/3d822a080a0c805d559b71b1376ee903d2b50875"
+          },
+          {
+            "label": "Standard Ebooks colophon",
+            "url": "https://github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/blob/3d822a080a0c805d559b71b1376ee903d2b50875/src/epub/text/colophon.xhtml"
+          },
+          {
+            "label": "Historical scan",
+            "url": "https://archive.org/details/houndofbaskervil00doyluoft"
+          },
+          {
+            "label": "Original publication record",
+            "url": "https://blogs.loc.gov/headlinesandheroes/2021/10/serial-fiction-part-1/"
+          },
+          {
+            "label": "Standard Ebooks public domain policy",
+            "url": "https://standardebooks.org/about/standard-ebooks-and-the-public-domain"
+          },
+          {
+            "label": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "07a94eca5c3b3add0e739e90b5de855858a7e9f9cf47e6d34e829dd70faec881",
+      "inputSha256": {
+        "Color": "f09062be1a56746ea0c0e5d2f48f21ea7b0b784fa6c4ddc19835606fb90a6dbd",
+        "BOOX": "b4ca34cc55ee284d68879fecdd5c33208cd00025e986a6451fd6129ab3026b4b"
+      },
+      "inputIllustrations": 25,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "lazarillo-en",
+      "workId": "lazarillo",
+      "title": "The Life of Lazarillo de Tormes",
+      "language": "en",
+      "author": "Anonymous",
+      "translator": "Clements Robert Markham",
+      "description": "Lázaro recounts his life in the service of a succession of masters in sixteenth-century Spain.",
+      "editionNote": "Clements Robert Markham’s Burgos-based translation. Adam and Charles Black, London, 1908. Project Gutenberg no. 53489.",
+      "rights": {
+        "chile": "The anonymous historical work is part of Chile’s common cultural heritage under Article 11 of Law 17.336. The translation term has expired for Clements Robert Markham (died 1916). Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1908. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded.",
+        "transcriptionLicense": null,
+        "includedLayers": "Historical translation, the prologue and seven masters. The 1908 edition separates the birth sequence from the first master. Markham’s introduction, side notes, captions, maps and art are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/53489"
+          },
+          {
+            "label": "Text witness",
+            "url": "https://www.gutenberg.org/files/53489/53489-h/53489-h.htm"
+          },
+          {
+            "label": "Historical facsimile",
+            "url": "https://archive.org/details/lifeoflazarillod00markiala"
+          },
+          {
+            "label": "Printed edition record",
+            "url": "https://catalogue.nli.ie/Record/vtls000389931"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "94b772ecdb70e637107944aeed65238a779250291d0e0c0e1558f4f8d294ce4b",
+      "inputSha256": {
+        "Color": "6466c6941227af32c18c29bbb162bd929b4eb4bf4a56fe8a7f13267f1dd5be43",
+        "BOOX": "bcb45bbf93ad9866a94e0fe9051eebaca985da35384c7a8beef22f392d888baf"
+      },
+      "inputIllustrations": 7,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "the-time-machine-en",
+      "workId": "the-time-machine",
+      "title": "The Time Machine",
+      "language": "en",
+      "author": "H. G. Wells",
+      "translator": null,
+      "description": "A Victorian inventor travels into the distant future and discovers how much the world has changed.",
+      "editionNote": "Standard Ebooks text. The first volume appeared in London and New York in 1895.",
+      "rights": {
+        "chile": "H. G. Wells died in 1946. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved. The anonymous 1895 editorial note is beyond the term under Article 13.",
+        "unitedStates": "The latest historical text or translation used here dates to 1895. The maximum 95-year publication term has expired.",
+        "terms": "Standard Ebooks’ contributions are dedicated under CC0 1.0. Digital provider credited in source records.",
+        "transcriptionLicense": "CC0-1.0",
+        "includedLayers": "Historical prose, the epilogue and the anonymous publisher’s note as published in The New Review in 1895. The modern cover art is excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Standard Ebooks edition",
+            "url": "https://standardebooks.org/ebooks/h-g-wells/the-time-machine"
+          },
+          {
+            "label": "Pinned digital source",
+            "url": "https://codeload.github.com/standardebooks/h-g-wells_the-time-machine/zip/fbd98543d4195ffdd8dbb90facb4309223bcb147"
+          },
+          {
+            "label": "Standard Ebooks colophon",
+            "url": "https://github.com/standardebooks/h-g-wells_the-time-machine/blob/fbd98543d4195ffdd8dbb90facb4309223bcb147/src/epub/text/colophon.xhtml"
+          },
+          {
+            "label": "Historical scan",
+            "url": "https://books.google.com/books?id=Y0pAAQAAIAAJ"
+          },
+          {
+            "label": "Original publication record",
+            "url": "https://digital.library.illinois.edu/items/92fbdfd0-b67e-013d-5129-02d0d7bfd6e4-8"
+          },
+          {
+            "label": "Standard Ebooks public domain policy",
+            "url": "https://standardebooks.org/about/standard-ebooks-and-the-public-domain"
+          },
+          {
+            "label": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "033cf64ffd13f434088a5705ee78235d0d9d0f3cfc266a2f862280fe20617d44",
+      "inputSha256": {
+        "Color": "9c53ff12df0ce0ff2f2d1d6fa32eb35ba6e1fc8bc3ccb7cd2fe6d52eba260b21",
+        "BOOX": "e51dd389bbde0acf48c2fd4cdc17d824e4a850e16bd8715af18a9c4736304a8b"
+      },
+      "inputIllustrations": 20,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "treasure-island-en",
+      "workId": "treasure-island",
+      "title": "Treasure Island",
+      "language": "en",
+      "author": "Robert Louis Stevenson",
+      "translator": null,
+      "description": "A young innkeeper’s son joins a voyage in search of a pirate’s buried treasure.",
+      "editionNote": "Standard Ebooks text based on a McLoughlin Bros. printing. The book first appeared in 1883.",
+      "rights": {
+        "chile": "Robert Louis Stevenson died in 1894. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1883. The maximum 95-year publication term has expired.",
+        "terms": "Standard Ebooks’ contributions are dedicated under CC0 1.0. Digital provider credited in source records.",
+        "transcriptionLicense": "CC0-1.0",
+        "includedLayers": "Historical prose, Stevenson’s poem, dedication, and narrative note. The first-edition map and modern cover art are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Standard Ebooks edition",
+            "url": "https://standardebooks.org/ebooks/robert-louis-stevenson/treasure-island"
+          },
+          {
+            "label": "Pinned digital source",
+            "url": "https://codeload.github.com/standardebooks/robert-louis-stevenson_treasure-island/zip/8bd59dd6644e732c748d17e89b7370aacda67d76"
+          },
+          {
+            "label": "Standard Ebooks colophon",
+            "url": "https://github.com/standardebooks/robert-louis-stevenson_treasure-island/blob/8bd59dd6644e732c748d17e89b7370aacda67d76/src/epub/text/colophon.xhtml"
+          },
+          {
+            "label": "Historical scan",
+            "url": "https://archive.org/details/treasislandyork00stev"
+          },
+          {
+            "label": "Original publication record",
+            "url": "https://www.loc.gov/item/50041964/"
+          },
+          {
+            "label": "Standard Ebooks public domain policy",
+            "url": "https://standardebooks.org/about/standard-ebooks-and-the-public-domain"
+          },
+          {
+            "label": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "a263833d59f171a0195669f88434e8de9d21e6e8b278f0c291f40bae6e518ffe",
+      "inputSha256": {
+        "Color": "8af5cdd4bb2339b3b63eb9d64ee95a69f20a6af9310ce31f63e09d8ca665029a",
+        "BOOX": "cbfe6ae3c9c63839869e30471d0f571b384ff7141097ef3ea605136d2b444bae"
+      },
+      "inputIllustrations": 34,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "alicia-gutierrez-gili-1927-es",
+      "workId": "alices-adventures-in-wonderland",
+      "title": "Alicia en el País de las Maravillas",
+      "language": "es",
+      "author": "Lewis Carroll",
+      "translator": "Juan Gutiérrez Gili",
+      "description": "Alice follows a white rabbit into a world of impossible rules and curious company.",
+      "editionNote": "Juan Gutiérrez Gili’s 1927 Editorial Mentora translation, from the transcription published by Edu Robsy on textos.info.",
+      "rights": {
+        "chile": "Lewis Carroll died in 1898. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. The translation term has expired for Juan Gutiérrez Gili (died 1939). Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1927. The maximum 95-year publication term has expired.",
+        "terms": "The historical text was transcribed from the credited textos.info edition. The provider offers reading, download and sharing. The incorporated material is limited to the historical text and our own formatting.",
+        "transcriptionLicense": null,
+        "includedLayers": "Historic verse preface and all twelve chapters. The attribution was checked against a distinctive Chapter III passage identified by Instituto Cervantes, with no full collation against the 1927 print copy. Art by Lola Anglada, the modern cover, portrait and editorial materials are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "1927 first-edition record",
+            "url": "https://www.themorgan.org/printed-books/387612"
+          },
+          {
+            "label": "Translator identification and textual comparison",
+            "url": "https://cvc.cervantes.es/trujaman/anteriores/abril_15/01042015.htm"
+          },
+          {
+            "label": "textos.info transcription, Edu Robsy",
+            "url": "https://www.textos.info/lewis-carroll/alicia-en-el-pais-de-las-maravillas"
+          },
+          {
+            "label": "textos.info sharing terms",
+            "url": "https://www.textos.info/preguntas-frecuentes"
+          },
+          {
+            "label": "Lola Anglada biographical record",
+            "url": "https://www.bnc.cat/esl/Editors-i-Editats-de-Catalunya/Il-lustradors-Fotografs/Anglada-Lola-1892-1984"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "be760ac8102dd738a3472f35f6659369c3c01ac907d6e46c07344c9435a1ed29",
+      "inputSha256": {
+        "Color": "3465e8cbb2dea1c30d3d3f8fbda267fb224f35cefb800a50230b75329ce663c0",
+        "BOOX": "fa26e810cfdbb905c79faae14dc3ba8c40b1aa5dd0397025ab47dd8bfe2094ee"
+      },
+      "inputIllustrations": 17,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "don-quijote-es",
+      "workId": "don-quijote",
+      "title": "Don Quijote de la Mancha",
+      "language": "es",
+      "author": "Miguel de Cervantes Saavedra",
+      "translator": null,
+      "description": "A would-be knight and his squire set out across Spain in search of adventures.",
+      "editionNote": "Both parts (1605 and 1615), from Project Gutenberg transcription no. 2000. The digital record does not identify a single print copy.",
+      "rights": {
+        "chile": "Miguel de Cervantes Saavedra died in 1616. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1615. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded.",
+        "transcriptionLicense": null,
+        "includedLayers": "All 126 chapters, historical preliminaries, dedications, prologues, and verse in this transcription. The automatic digital cover is excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/2000"
+          },
+          {
+            "label": "Text witness",
+            "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm"
+          },
+          {
+            "label": "Edition history",
+            "url": "https://www.bne.es/es/quijote/"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "bb8745d3189f5034f774b8e436e3fd0dbb61dd8d37da3281a60607e6751775e5",
+      "inputSha256": {
+        "Color": "a8635f79ce20fb6c76f2457c2f142bb9af89d474a4f369f7250c8a2e16dc3358",
+        "BOOX": "4d0e8ecfbcb2330abafbc62d8febc232bb54e406985ecea3bc8b93d180950b8a"
+      },
+      "inputIllustrations": 125,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "el-cantico-de-navidad-barthe-1883-es",
+      "workId": "a-christmas-carol",
+      "title": "El cántico de Navidad",
+      "language": "es",
+      "author": "Charles Dickens",
+      "translator": "Luis Barthe",
+      "description": "A miser receives three visitors on Christmas Eve and faces the choices that shaped his life.",
+      "editionNote": "Luis Barthe’s translation, Biblioteca Universal vol. LXXXIX, Madrid, 1883. Transcribed on Spanish Wikisource from the University of Alicante facsimile.",
+      "rights": {
+        "chile": "Charles Dickens died in 1870. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. The translation term has expired for Luis Barthe (died 1921). Attribution and integrity of the text are preserved. The anonymous 1883 footnotes are beyond the term under Article 13.",
+        "unitedStates": "The latest historical text or translation used here dates to 1883. The maximum 95-year publication term has expired.",
+        "terms": "Wikisource transcription contributions are credited and distributed under CC BY-SA 4.0, including the HTML and EPUB adaptations. The source credit identifies the changed typesetting, navigation and image placements.",
+        "transcriptionLicense": "CC-BY-SA-4.0",
+        "includedLayers": "The five staves and six historical footnotes. The preliminary biography, separate story and source artwork are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Library catalogue and facsimile",
+            "url": "https://www.cervantesvirtual.com/obra/el-cantico-de-navidad/"
+          },
+          {
+            "label": "Wikisource transcription, pinned revision",
+            "url": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad&oldid=1634291"
+          },
+          {
+            "label": "Wikisource transcription",
+            "url": "https://es.wikisource.org/wiki/El_c%C3%A1ntico_de_Navidad"
+          },
+          {
+            "label": "Proofreading record",
+            "url": "https://es.wikisource.org/wiki/%C3%8Dndice:Cantico_de_Navidad.djvu"
+          },
+          {
+            "label": "CC BY-SA 4.0 licence",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          {
+            "label": "Wikisource stave 1",
+            "url": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Primera_estrofa&oldid=1634292"
+          },
+          {
+            "label": "Wikisource stave 2",
+            "url": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Segunda_estrofa&oldid=1283047"
+          },
+          {
+            "label": "Wikisource stave 3",
+            "url": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Tercera_estrofa&oldid=1283048"
+          },
+          {
+            "label": "Wikisource stave 4",
+            "url": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Cuarta_estrofa&oldid=1283049"
+          },
+          {
+            "label": "Wikisource stave 5",
+            "url": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Quinta_estrofa&oldid=1283050"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "8f7a235d2b4629d251d73eb16d3dcb23ab23f91977f1c481b33e625e8bdfb123",
+      "inputSha256": {
+        "Color": "3dffc11b30dbff8f8b0cfbb1ae6cff8f2868cd6010b0976350db3e480672e5ab",
+        "BOOX": "f43bf6aed25aea417a38f1628e45530ec68477326a3763554822d8692ae4bd94"
+      },
+      "inputIllustrations": 19,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "treasure-island-es-caballero-1901",
+      "workId": "treasure-island",
+      "title": "La isla del tesoro",
+      "language": "es",
+      "author": "Robert Louis Stevenson",
+      "translator": "Manuel Caballero",
+      "description": "A young innkeeper’s son joins a voyage in search of a pirate’s buried treasure.",
+      "editionNote": "Manuel Caballero’s translation, first published in 1886. Text from the fifth edition, D. Appleton & Co., New York, 1901.",
+      "rights": {
+        "chile": "Robert Louis Stevenson died in 1894. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. The translation term has expired for Manuel Caballero (died 1926). Attribution and integrity of the text are preserved. Caballero’s preface and notes are likewise part of the common cultural heritage.",
+        "unitedStates": "The latest historical text or translation used here dates to 1901. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded. Transcription credits: Mark C. Orton, Chuck Greif, and Distributed Proofreaders.",
+        "transcriptionLicense": null,
+        "includedLayers": "Historical translation, Caballero’s signed introduction dated 1886, and six historical notes. Project Gutenberg headers and trademark material, unrelated editorial additions and edition art are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/45438"
+          },
+          {
+            "label": "Historical facsimile",
+            "url": "https://es.wikisource.org/wiki/Archivo:La_Isla_del_Tesoro_-_Caballero_1901.djvu"
+          },
+          {
+            "label": "Translator life dates",
+            "url": "https://www.elem.mx/autor/datos/2922"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "b308b24a460d40b33a5fe5dec710fcfdb4e46d405ad881c277212bb19fb58a88",
+      "inputSha256": {
+        "Color": "8979ab939c5a20d2f2c52c53e365e8282fd03d4a7f6e5c0667c8da5f17f4e7cb",
+        "BOOX": "2da98a0d31ecb2dbb4ab2f5982d7e51f70892ed18b2b93f42c93c4b49d836521"
+      },
+      "inputIllustrations": 39,
+      "historicalIllustrations": 0,
+      "editorialNotes": [
+        {
+          "cut": "P0682",
+          "sectionTitle": "XVI",
+          "text": "In chapter XVI, the rowers are Joyce and Dr. Livesey, who narrates this part of the novel. The illustration and caption generated from the mistaken identification of the narrator as Jim Hawkins were held. The passage is preserved."
+        }
+      ]
+    },
+    {
+      "id": "lazarillo-es",
+      "workId": "lazarillo",
+      "title": "Lazarillo de Tormes",
+      "language": "es",
+      "author": "Anonymous",
+      "translator": null,
+      "description": "Lázaro recounts his life in the service of a succession of masters in sixteenth-century Spain.",
+      "editionNote": "Burgos, 1554, with marked Alcalá interpolations from the same year. Project Gutenberg transcription no. 320.",
+      "rights": {
+        "chile": "The anonymous historical work is part of Chile’s common cultural heritage under Article 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1554. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded.",
+        "transcriptionLicense": null,
+        "includedLayers": "Anonymous historical text, complete prologue and seven tratados. The digital wrapper and cover are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/320"
+          },
+          {
+            "label": "Text witness",
+            "url": "https://www.gutenberg.org/cache/epub/320/pg320-images.html"
+          },
+          {
+            "label": "Historical editions and variants",
+            "url": "https://www.cervantesvirtual.com/obra-visor/la-vida-de-lazarillo-de-tormes-y-de-sus-fortunas-y-adversidades--0/html/fedb2f54-82b1-11df-acc7-002185ce6064_2.html"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "77b33fc205322e4c4da38660509f9b515a07a028a6f0d7c064105a019920480b",
+      "inputSha256": {
+        "Color": "8c8b2f26f753a5b1f0d447a88bfc812cd8f83d4f005427d38c220471d6dda1b8",
+        "BOOX": "b7cb07dfd4515205179c31df136f27287f43da9de6b6aafcff66ab9399254861"
+      },
+      "inputIllustrations": 10,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "leyendas-becquer-es",
+      "workId": "leyendas-becquer",
+      "title": "Leyendas (edición de 1912)",
+      "language": "es",
+      "author": "Gustavo Adolfo Bécquer",
+      "translator": null,
+      "description": "Twelve tales of mystery, desire, and the supernatural, told through Spanish places and traditions.",
+      "editionNote": "Twelve tales from the Edición del Monumento of Obras escogidas. Librería de Fernando Fé, Madrid, 1912.",
+      "rights": {
+        "chile": "Gustavo Adolfo Bécquer died in 1870. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1912. The maximum 95-year publication term has expired.",
+        "terms": "Uses the historical text extracted from the credited digital transcription. Provider wrapper, trademark material, and added artwork are excluded.",
+        "transcriptionLicense": null,
+        "includedLayers": "The complete twelve tales in the 1912 selection. The preliminary address, general introduction, verse collection, letters, source illustrations and ornaments are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Digital transcription record",
+            "url": "https://www.gutenberg.org/ebooks/53552"
+          },
+          {
+            "label": "Text witness",
+            "url": "https://www.gutenberg.org/cache/epub/53552/pg53552-images.html"
+          },
+          {
+            "label": "Historical facsimile",
+            "url": "https://archive.org/details/obrasescogidas00bcqu"
+          },
+          {
+            "label": "Edition bibliography",
+            "url": "https://www.cervantesvirtual.com/s3/BVMC_OBRAS/00e/129/028/2b2/11d/fac/c70/021/85c/e60/64/mimes/00e12902-82b2-11df-acc7-002185ce6064_2.html"
+          },
+          {
+            "label": "Digital source permissions",
+            "url": "https://www.gutenberg.org/policy/permission"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "49cba1e19c8b93760416680cac1ec8cbaf5b0c4dccf8e3ff8f60a2030513fc94",
+      "inputSha256": {
+        "Color": "db653d50a35280df920f996ab85d67b7039799cdba94de6c534c37d811c5d419",
+        "BOOX": "30be43f6876d0f82d687d5c9115e6ae3e5caae7a925722c23609738c8c6d7c9d"
+      },
+      "inputIllustrations": 29,
+      "historicalIllustrations": 0
+    },
+    {
+      "id": "sub-terra-es",
+      "workId": "sub-terra",
+      "title": "Sub terra: cuadros mineros",
+      "language": "es",
+      "author": "Baldomero Lillo",
+      "translator": null,
+      "description": "Eight stories set in and around the coal mines of Lota in Chile.",
+      "editionNote": "Baldomero Lillo’s first edition, Imprenta Moderna, Santiago, 1904. Biblioteca Nacional de Chile copy MC0005166, transcribed on Spanish Wikisource.",
+      "rights": {
+        "chile": "Baldomero Lillo died in 1923. The historical text is part of Chile’s common cultural heritage under Articles 10 and 11 of Law 17.336. Attribution and integrity of the text are preserved.",
+        "unitedStates": "The latest historical text or translation used here dates to 1904. The maximum 95-year publication term has expired.",
+        "terms": "Wikisource transcription contributions are credited and distributed under CC BY-SA 3.0, including the HTML and EPUB adaptations. The source credit identifies the changed typesetting, navigation and image placements.",
+        "transcriptionLicense": "CC-BY-SA-3.0",
+        "includedLayers": "Eight tales in their original order, with the historical note to Juan Fariña. The source scan, cover, facsimile crops and decorative artwork are excluded.",
+        "generatedArt": "New illustrations were generated with OpenAI’s image API and selected for this edition. OpenAI assigns its interest, if any, in API output to the customer as provided by its terms.",
+        "sources": [
+          {
+            "label": "Biblioteca Nacional de Chile catalogue",
+            "url": "https://www.memoriachilena.gob.cl/602/w3-article-8007.html"
+          },
+          {
+            "label": "Facsimile",
+            "url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0005166.pdf"
+          },
+          {
+            "label": "Wikisource transcription",
+            "url": "https://es.wikisource.org/wiki/Sub_terra_(1904)"
+          },
+          {
+            "label": "Proofreading record",
+            "url": "https://es.wikisource.org/wiki/Índice:Sub_Terra.pdf"
+          },
+          {
+            "label": "CC BY-SA 3.0 licence",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+          },
+          {
+            "label": "Chilean Intellectual Property Law 17.336",
+            "url": "https://www.bcn.cl/leychile/navegar?idNorma=28933"
+          },
+          {
+            "label": "U.S. Copyright Office, Duration of Copyright",
+            "url": "https://www.copyright.gov/circs/circ15a.pdf"
+          },
+          {
+            "label": "17 U.S.C. § 104A, restored works",
+            "url": "https://www.copyright.gov/title17/92chap1.html#104a"
+          },
+          {
+            "label": "OpenAI Services Agreement, §4",
+            "url": "https://openai.com/policies/services-agreement/#4-customer-content"
+          }
+        ]
+      },
+      "sourceTextSha256": "e826f4d2994c950726a8e57df0ae6cac495a24a11d49f43a158892de7f695a80",
+      "inputSha256": {
+        "Color": "af56cb781bacc10e029eff76eab56e7b1dc9634c64f47c20efaab9d5432167a5",
+        "BOOX": "d8885b549bd7ce339bea34bf17a99e9c8b86af8c02f70720253f37123556e418"
+      },
+      "inputIllustrations": 13,
+      "historicalIllustrations": 0
+    }
+  ]
+}
