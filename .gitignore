@@ -1,0 +1,13 @@
+/.env
+/.env.*
+!/.env.example
+/.venv/
+/outputs/
+/inputs/
+/.ruff_cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+/releases/
+*.epub

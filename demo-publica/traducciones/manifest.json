@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "checked_on": "2026-11-21",
+  "checked_territories": ["CL", "US"],
+  "territory_sources": {
+    "CL": "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+    "US": [
+      "https://www.copyright.gov/circs/circ15a.pdf",
+      "https://www.copyright.gov/circs/circ38b.pdf",
+      "https://guides.library.cornell.edu/copyright/publicdomain"
+    ]
+  },
+  "editions": [
+    {
+      "id": "alicia-gutierrez-gili-1927-es",
+      "work_id": "alices-adventures-in-wonderland",
+      "title": "Alicia en el País de las Maravillas",
+      "language": "es",
+      "path": "outputs/demo-publica/traducciones/alicia-gutierrez-gili-1927-es.epub",
+      "bytes": 80475,
+      "sha256": "be760ac8102dd738a3472f35f6659369c3c01ac907d6e46c07344c9435a1ed29",
+      "bibliography": {
+        "original": "Alice’s Adventures in Wonderland, Lewis Carroll (1832–1898), 1865",
+        "translator": "Juan Gutiérrez Gili (1894–1939)",
+        "first_translation_publication": "Barcelona, Editorial Mentora, octubre de 1927",
+        "digital_source": "textos.info, edición digital de Edu Robsy (2016, actualizada en 2022)",
+        "local_edition": "Derivado textual de la edición digital. Conserva las variantes de transcripción. El texto del EPUB digital coincide en el pasaje distintivo del capítulo III que el Centro Virtual Cervantes atribuye a Gutiérrez Gili. El estudio de Cervantes distingue esta versión de la traducción posterior de José Fernández. No se ha cotejado todo el texto contra el ejemplar de 1927."
+      },
+      "rights": {
+        "historical_original": {
+          "CL": "Patrimonio cultural común. Carroll murió en 1898. Se conserva la atribución.",
+          "US": "Dominio público. Publicación original de 1865."
+        },
+        "historical_translation": {
+          "CL": "Patrimonio cultural común. Gutiérrez Gili murió en 1939. Se conserva la atribución y el texto de la transcripción.",
+          "US": "Dominio público. La traducción se publicó en 1927 en España y venció incluso el plazo de 95 años aplicable a obras extranjeras restauradas."
+        },
+        "digital_transcription": {
+          "CL": "Se incorporaron solo el prefacio en verso y los doce capítulos. La fuente ofrece lectura, descarga y compartición y describe el texto como traducción histórica. No se reclama licencia sobre los materiales editoriales de textos.info.",
+          "US": "Mismo alcance. Se utiliza la transcripción del texto histórico, con atribución visible al editor digital. No se incorporaron aportes editoriales identificables como obras independientes."
+        },
+        "notes_and_paratext": {
+          "included": ["Prefacio en verso de la obra", "Portada de texto, navegación y créditos preparados para la demo"],
+          "excluded": ["Perfil biográfico de textos.info", "Fichas, descripción y otros materiales del sitio"],
+          "CL": "El prefacio integra la traducción histórica. Los créditos identifican las fuentes.",
+          "US": "Mismo alcance."
+        },
+        "cover_and_art": {
+          "included": [],
+          "excluded": ["Cubierta, retrato y diseño editorial del EPUB digital", "Ilustraciones y viñetas de Lola Anglada"],
+          "CL": "Anglada murió en 1984. Sus ilustraciones quedan fuera porque no ha vencido el plazo patrimonial según el cómputo general chileno. La cubierta y el retrato digitales quedan fuera por falta de verificación de sus derechos.",
+          "US": "La publicación en 1927 alcanza para las ilustraciones exactas publicadas entonces. El EPUB excluye todo el arte, incluida cualquier versión posterior y la cubierta y el retrato digitales."
+        }
+      },
+      "urls": {
+        "first_edition": "https://www.themorgan.org/printed-books/387612",
+        "second_edition_first_edition_date": "https://www.themorgan.org/printed-books/387615",
+        "translator_and_textual_fingerprint": "https://cvc.cervantes.es/trujaman/anteriores/abril_15/01042015.htm",
+        "illustrator_life_dates": "https://www.bnc.cat/esl/Editors-i-Editats-de-Catalunya/Il-lustradors-Fotografs/Anglada-Lola-1892-1984",
+        "digital_record": "https://www.textos.info/lewis-carroll/alicia-en-el-pais-de-las-maravillas",
+        "digital_epub": "https://www.textos.info/lewis-carroll/alicia-en-el-pais-de-las-maravillas/epub",
+        "digital_text": "https://www.textos.info/lewis-carroll/alicia-en-el-pais-de-las-maravillas/ebook",
+        "source_reuse": "https://www.textos.info/preguntas-frecuentes"
+      },
+      "verification": {
+        "digital_source_sha256": "ebb415bc5ddcc71ef56577263417d15edeadaeaae81d19f7902cf05c2273bbe8",
+        "complete": "Prefacio y doce capítulos navegables. Verificación de apertura y cierre del texto, huella textual del capítulo III y correspondencia de los 13 documentos literarios con la fuente EPUB.",
+        "content_words": 27307,
+        "epubcheck": "5.4.0, sin errores ni advertencias"
+      }
+    },
+    {
+      "id": "el-cantico-de-navidad-barthe-1883-es",
+      "work_id": "a-christmas-carol",
+      "title": "El cántico de Navidad",
+      "language": "es",
+      "path": "outputs/demo-publica/traducciones/el-cantico-de-navidad-barthe-1883-es.epub",
+      "bytes": 78257,
+      "sha256": "8f7a235d2b4629d251d73eb16d3dcb23ab23f91977f1c481b33e625e8bdfb123",
+      "bibliography": {
+        "original": "A Christmas Carol, Charles Dickens (1812–1870), 1843",
+        "translator": "Luis Barthe (1857–1921)",
+        "first_translation_publication": "Madrid, Imprenta y Litografía de la Biblioteca Universal, tomo LXXXIX, 1883",
+        "digital_source": "Wikisource en español, transcripción validada del facsímil de la Universidad de Alicante",
+        "local_edition": "Derivado textual con las cinco estrofas y seis notas históricas. Conserva la ortografía de la transcripción. Regenera la navegación, el XHTML y los enlaces a las notas."
+      },
+      "rights": {
+        "historical_original": {
+          "CL": "Patrimonio cultural común. Dickens murió en 1870. Se conserva la atribución.",
+          "US": "Dominio público. Publicación original de 1843."
+        },
+        "historical_translation": {
+          "CL": "Patrimonio cultural común. Barthe murió en 1921. Se conserva la atribución.",
+          "US": "Dominio público. Publicación de 1883, anterior en más de 95 años."
+        },
+        "digital_transcription": {
+          "CL": "Los aportes de los colaboradores de Wikisource, en la medida en que estén protegidos, se redistribuyen bajo CC BY-SA 4.0. El EPUB identifica la fuente y las revisiones, describe los cambios de formato y enlaza la licencia.",
+          "US": "Mismo alcance.",
+          "license": "CC-BY-SA-4.0"
+        },
+        "notes_and_paratext": {
+          "included": ["Seis notas al pie de la edición de 1883", "Portada de texto, navegación y créditos preparados para la demo"],
+          "excluded": ["Biografía preliminar", "Relato independiente La fortuna de un estudiante", "Plantillas y navegación del sitio"],
+          "CL": "Las notas sin firma están en el impreso de 1883. Incluso si se consideran anónimas, su plazo de 70 años desde publicación ha vencido.",
+          "US": "Las notas del impreso de 1883 están en dominio público."
+        },
+        "cover_and_art": {
+          "included": [],
+          "CL": "Edición de texto. No incorpora imágenes, ilustraciones ni facsímiles.",
+          "US": "Mismo alcance."
+        }
+      },
+      "urls": {
+        "catalog_record_and_facsimile": "https://www.cervantesvirtual.com/obra/el-cantico-de-navidad/",
+        "original_cover_and_translator": "https://es.wikisource.org/wiki/P%C3%A1gina:Cantico_de_Navidad.djvu/1",
+        "translator_life_dates": "https://librivox.org/el-cantico-de-navidad-by-charles-dickens/",
+        "digital_record": "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad&oldid=1634291",
+        "digital_facsimile": "https://commons.wikimedia.org/wiki/File:Cantico_de_Navidad.djvu",
+        "validation_status": "https://es.wikisource.org/wiki/%C3%8Dndice:Cantico_de_Navidad.djvu",
+        "digital_source_pages": [
+          "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Primera_estrofa&oldid=1634292",
+          "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Segunda_estrofa&oldid=1283047",
+          "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Tercera_estrofa&oldid=1283048",
+          "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Cuarta_estrofa&oldid=1283049",
+          "https://es.wikisource.org/w/index.php?title=El_c%C3%A1ntico_de_Navidad:_Quinta_estrofa&oldid=1283050"
+        ],
+        "digital_source_terms": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+        "digital_source_license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "verification": {
+        "complete": "Cinco estrofas en el orden del impreso. Las transclusiones cubren consecutivamente las páginas 21–163 del facsímil DjVu, equivalentes a las páginas impresas 1–143. Se verificaron las seis notas en las imágenes de las páginas 21, 23, 25, 46, 97 y 129 del DjVu y se conservaron sus enlaces en el EPUB.",
+        "content_words": 28965,
+        "epubcheck": "5.4.0, sin errores ni advertencias"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "work_id": "the-time-machine",
+      "title": "La máquina exploradora del tiempo",
+      "candidate": "Traducción firmada por J. d’Albroi, Barcelona, 1926",
+      "CL": "La obra de Wells está en patrimonio cultural común. La identidad o fecha de fallecimiento de J. d’Albroi no se pudo establecer. La firma abreviada por sí sola no acredita condición anónima o seudónima. Tampoco se verificaron cubierta e ilustraciones. La ficha de la versión moderna de Educ.ar indica CC BY-NC-SA, pero no se verificó que el permiso cubra toda la traducción y el archivo.",
+      "US": "Publicación histórica anterior a 1931. Ese dato no se extiende a la edición moderna.",
+      "next_evidence": "Fuente de autoridad para el traductor histórico o autorización inequívoca sobre una edición íntegra moderna. El facsímil histórico requiere además verificar su transcripción.",
+      "urls": [
+        "https://revistas.usal.es/dos/index.php/0210-749X/es/article/download/1555/1619/3198",
+        "https://es.wikisource.org/wiki/Archivo:La_m%C3%A1quina_exploradora_del_tiempo_-_IA_maquina-del-tiempo.pdf",
+        "https://librivox.org/la-maquina-exploradora-del-tiempo-by-h-g-wells/",
+        "https://www.educ.ar/recursos/152483/la-m%C3%A1quina-del-tiempo,-de-herbert-george-wells"
+      ]
+    },
+    {
+      "work_id": "the-hound-of-the-baskervilles",
+      "title": "El sabueso de los Baskerville",
+      "candidate": "Arturo Costa Álvarez (1870–1929), Biblioteca de La Nación n.º 39, Buenos Aires, 1909",
+      "CL": "El texto histórico del original y el de Costa Álvarez están en patrimonio cultural común. La alternativa de José Francés de 1908 queda fuera por el plazo chileno, pues Francés murió en 1964.",
+      "US": "Textos históricos de 1902 y 1909 en dominio público. Las condiciones de una traducción colaborativa moderna requieren una evaluación propia.",
+      "next_evidence": "Wikisource marca el ejemplar argentino por corregir. Persisten errores de OCR en el capítulo IV, incluidos cortes artificiales de palabras e intrusiones de símbolos. Hace falta cotejar los 15 capítulos con el facsímil y compilar un EPUB textual.",
+      "urls": [
+        "https://es.wikisource.org/wiki/%C3%8Dndice:El_sabueso_de_los_Baskerville_(1909).djvu",
+        "https://es.wikisource.org/wiki/El_sabueso_de_los_Baskerville_(Costa_%C3%81lvarez_tr.)/IV",
+        "https://commons.wikimedia.org/wiki/File:El_sabueso_de_los_Baskerville_(1909).djvu",
+        "https://www.archivos.unlp.edu.ar/index.php/actor/browse?maintainingRepository=443&sf_culture=es&sort=identifier&sortDir=asc",
+        "https://cdigital.cabu.uanl.mx/fl/32/1020023329.html",
+        "https://www.mcu.es/ccbae/eu/consulta_aut/registro.do?control=BAA20160058833"
+      ]
+    },
+    {
+      "work_id": "anne-of-green-gables",
+      "title": "Ana de las Tejas Verdes",
+      "candidate": "Versiones modernas registradas por la BNE, entre ellas las de Constanza Fantín de Bellocq y José García Díaz",
+      "CL": "Original de Montgomery en patrimonio cultural común. No se identificó una traducción histórica en español con plazo vencido ni una edición moderna íntegra con licencia comprobada. Las traducciones, ilustraciones y cubiertas modernas requieren derechos propios.",
+      "US": "Original publicado en 1908 en dominio público. No se acreditó que alguna traducción completa en español se pueda redistribuir.",
+      "next_evidence": "Traducción íntegra con identidad, procedencia y permiso de redistribución explícitos. La fecha de 1908 de la ficha digital corresponde al original y no acredita el estado de los derechos de la traducción.",
+      "urls": [
+        "https://datos.bne.es/obra/XX2096631.html?date=ASC&version=XX2096626",
+        "https://phte.upf.edu/dhte/panoramas-generales/inglesa-de-canada-literatura/",
+        "https://minimalbooks.com/es/libros/ana-de-las-tejas-verdes/"
+      ]
+    }
+  ]
+}

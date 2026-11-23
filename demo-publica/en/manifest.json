@@ -1,0 +1,591 @@
+{
+  "checked_at": "2026-11-21",
+  "editions": [
+    {
+      "id": "treasure-island-en",
+      "work_id": "treasure-island",
+      "title": "Treasure Island",
+      "language": "en",
+      "epub_language": "en-US",
+      "author": {
+        "name": "Robert Louis Stevenson",
+        "born": 1850,
+        "died": 1894,
+        "evidence_url": "https://www.loc.gov/item/50041964/"
+      },
+      "translator": null,
+      "original_publication": {
+        "year": 1883,
+        "imprint": "Cassell, Londres y Nueva York, primera edición en libro",
+        "evidence_url": "https://www.loc.gov/item/50041964/"
+      },
+      "edition": {
+        "publication_year": 2015,
+        "publisher": "Standard Ebooks",
+        "description": "Derivado local de la fuente versionada, EPUB 3 con índice XHTML y NCX.",
+        "historical_scan": "New York, McLoughlin Bros., [188?]"
+      },
+      "genre": "aventura marítima",
+      "source_word_count": 68365,
+      "chapters": 34,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "standard-ebooks",
+        "credit_url": "https://standardebooks.org/ebooks/robert-louis-stevenson/treasure-island",
+        "commit": "8bd59dd6644e732c748d17e89b7370aacda67d76",
+        "filename": "robert-louis-stevenson_treasure-island.zip",
+        "download_url": "https://codeload.github.com/standardebooks/robert-louis-stevenson_treasure-island/zip/8bd59dd6644e732c748d17e89b7370aacda67d76",
+        "sha256": "4b69f1bec742d6152c6b342f6e5ea58c5516d605c89c1bdb3af1967fd2484883",
+        "transcription_url": "https://www.gutenberg.org/ebooks/27780",
+        "historical_scan_url": "https://archive.org/details/treasislandyork00stev",
+        "colophon_url": "https://github.com/standardebooks/robert-louis-stevenson_treasure-island/blob/8bd59dd6644e732c748d17e89b7370aacda67d76/src/epub/text/colophon.xhtml"
+      },
+      "notes": {
+        "description": "Poema, dedicatoria y nota narrativa de Stevenson. El corpus no incluye el mapa de la primera edición.",
+        "evidence_url": "https://github.com/standardebooks/robert-louis-stevenson_treasure-island/blob/8bd59dd6644e732c748d17e89b7370aacda67d76/src/epub/text"
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto con título y autor. Sin imagen de cubierta ni tipografías incrustadas.",
+        "excluded_art": {
+          "title": "One More Step, Mr. Hands",
+          "artist": "N. C. Wyeth",
+          "year_as_credited": 1911,
+          "evidence_url": "https://github.com/standardebooks/robert-louis-stevenson_treasure-island/blob/8bd59dd6644e732c748d17e89b7370aacda67d76/src/epub/text/colophon.xhtml"
+        }
+      },
+      "illustrations": {
+        "included": 0,
+        "description": "No hay ilustraciones interiores en esta edición de fuente."
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Patrimonio cultural común para el texto de Robert Louis Stevenson (†1894), arts. 10 y 11. Se conserva la paternidad y la integridad del texto fuente.",
+        "US": "Texto histórico publicado en 1883, fuera del plazo máximo de 95 años. Markup y aportes modernos bajo CC0.",
+        "terms": "Aportes de Standard Ebooks bajo CC0 1.0. La portada tipográfica, las marcas gráficas editoriales y los resúmenes de catálogo del proveedor no se incorporan al derivado.",
+        "embedded_notice": "Historical text in the public domain in Chile and the United States. Based on the Standard Ebooks edition. Standard Ebooks contributions are dedicated under CC0 1.0.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.copyright.gov/title17/92chap1.html#104a",
+          "https://standardebooks.org/about/standard-ebooks-and-the-public-domain",
+          "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "https://github.com/standardebooks/robert-louis-stevenson_treasure-island/blob/8bd59dd6644e732c748d17e89b7370aacda67d76/LICENSE.md",
+          "https://www.loc.gov/item/50041964/",
+          "https://www.loc.gov/item/50041964/"
+        ]
+      },
+      "path": "outputs/demo-publica/en/treasure-island-en.epub",
+      "bytes": 194977,
+      "sha256": "a263833d59f171a0195669f88434e8de9d21e6e8b278f0c291f40bae6e518ffe"
+    },
+    {
+      "id": "alices-adventures-in-wonderland-en",
+      "work_id": "alices-adventures-in-wonderland",
+      "title": "Alice’s Adventures in Wonderland",
+      "language": "en",
+      "epub_language": "en-GB",
+      "author": {
+        "name": "Lewis Carroll",
+        "born": 1832,
+        "died": 1898,
+        "evidence_url": "https://blogs.loc.gov/loc/2016/05/lcm-page-from-the-past-alices-adventures-in-the-library-of-congress/"
+      },
+      "translator": null,
+      "original_publication": {
+        "year": 1865,
+        "imprint": "Macmillan, Londres, tirada inicial de 1865 retirada. La publicación estadounidense documentada lleva fecha de 1866.",
+        "evidence_url": "https://blogs.loc.gov/loc/2016/05/lcm-page-from-the-past-alices-adventures-in-the-library-of-congress/"
+      },
+      "edition": {
+        "publication_year": 2014,
+        "publisher": "Standard Ebooks",
+        "description": "Derivado local de la fuente versionada, EPUB 3 con índice XHTML y NCX.",
+        "historical_scan": "Harper & Brothers, 1901; el escaneo consignado para el texto contiene ilustraciones de Peter Newell que este EPUB no utiliza."
+      },
+      "genre": "fantasía",
+      "source_word_count": 26738,
+      "chapters": 12,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "standard-ebooks",
+        "credit_url": "https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel",
+        "commit": "8da5cac1a4ec2c811322eff79daa5e11e851a813",
+        "filename": "lewis-carroll_alices-adventures-in-wonderland_john-tenniel.zip",
+        "download_url": "https://codeload.github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/zip/8da5cac1a4ec2c811322eff79daa5e11e851a813",
+        "sha256": "2811c68b5ba1d8892243ce8b51c42eecf6abab33f4a1f1bce0bcf776a466904c",
+        "transcription_url": "https://www.gutenberg.org/ebooks/11",
+        "historical_scan_url": "https://archive.org/details/adventuresalices00carrrich",
+        "colophon_url": "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/blob/8da5cac1a4ec2c811322eff79daa5e11e851a813/src/epub/text/colophon.xhtml"
+      },
+      "notes": {
+        "description": "Poema inicial de Carroll, frontispicio, índice de ilustraciones e ilustraciones de Tenniel; sin notas modernas.",
+        "evidence_url": "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/blob/8da5cac1a4ec2c811322eff79daa5e11e851a813/src/epub/text"
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto con título y autor. Sin imagen de cubierta ni tipografías incrustadas.",
+        "excluded_art": {
+          "title": "Amanita",
+          "artist": "Ivan Shishkin",
+          "year_as_credited": 1879,
+          "evidence_url": "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/blob/8da5cac1a4ec2c811322eff79daa5e11e851a813/src/epub/text/colophon.xhtml"
+        }
+      },
+      "illustrations": {
+        "included": 42,
+        "description": "42 ilustraciones interiores de Tenniel, incluida la del frontispicio. Digitalización vectorial y textos alternativos de Standard Ebooks bajo CC0.",
+        "evidence_urls": [
+          "https://www.loc.gov/item/30004663/",
+          "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/blob/8da5cac1a4ec2c811322eff79daa5e11e851a813/src/epub/text/loi.xhtml",
+          "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/commit/a631b100194851fa9edbc22a1705ce2d4066575f"
+        ]
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Patrimonio cultural común para el texto de Lewis Carroll (†1898), arts. 10 y 11. Se conserva la paternidad y la integridad del texto fuente. Las ilustraciones de John Tenniel (†1914) se publicaron junto con el texto en 1865/1866.",
+        "US": "Texto histórico publicado en 1865, fuera del plazo máximo de 95 años. Markup y aportes modernos bajo CC0. Las ilustraciones de John Tenniel (†1914) se publicaron junto con el texto en 1865/1866.",
+        "terms": "Aportes de Standard Ebooks bajo CC0 1.0. La portada tipográfica, las marcas gráficas editoriales y los resúmenes de catálogo del proveedor no se incorporan al derivado.",
+        "embedded_notice": "Historical text in the public domain in Chile and the United States. Based on the Standard Ebooks edition. Standard Ebooks contributions are dedicated under CC0 1.0.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.copyright.gov/title17/92chap1.html#104a",
+          "https://standardebooks.org/about/standard-ebooks-and-the-public-domain",
+          "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "https://github.com/standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel/blob/8da5cac1a4ec2c811322eff79daa5e11e851a813/LICENSE.md",
+          "https://blogs.loc.gov/loc/2016/05/lcm-page-from-the-past-alices-adventures-in-the-library-of-congress/",
+          "https://blogs.loc.gov/loc/2016/05/lcm-page-from-the-past-alices-adventures-in-the-library-of-congress/"
+        ]
+      },
+      "illustrator": {
+        "name": "John Tenniel",
+        "born": 1820,
+        "died": 1914,
+        "evidence_url": "https://www.loc.gov/item/30004663/"
+      },
+      "path": "outputs/demo-publica/en/alices-adventures-in-wonderland-en.epub",
+      "bytes": 13892533,
+      "sha256": "0a1a85901ea11ff194b95d85768a0bfe46b95dcd4c22fc957f1c699850612314"
+    },
+    {
+      "id": "the-time-machine-en",
+      "work_id": "the-time-machine",
+      "title": "The Time Machine",
+      "language": "en",
+      "epub_language": "en-GB",
+      "author": {
+        "name": "H. G. Wells",
+        "born": 1866,
+        "died": 1946,
+        "evidence_url": "https://digital.library.illinois.edu/items/92fbdfd0-b67e-013d-5129-02d0d7bfd6e4-8"
+      },
+      "translator": null,
+      "original_publication": {
+        "year": 1895,
+        "imprint": "William Heinemann, Londres, 1895. También se publicó en EE. UU. con Henry Holt en 1895.",
+        "evidence_url": "https://digital.library.illinois.edu/items/92fbdfd0-b67e-013d-5129-02d0d7bfd6e4-8"
+      },
+      "edition": {
+        "publication_year": 2014,
+        "publisher": "Standard Ebooks",
+        "description": "Derivado local de la fuente versionada, EPUB 3 con índice XHTML y NCX.",
+        "historical_scan": "El colofón declara un escaneo de Google Books. Edición y año cotejados aparte con University of Illinois y la publicación de 1895."
+      },
+      "genre": "ciencia ficción",
+      "source_word_count": 32429,
+      "chapters": 12,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "standard-ebooks",
+        "credit_url": "https://standardebooks.org/ebooks/h-g-wells/the-time-machine",
+        "commit": "fbd98543d4195ffdd8dbb90facb4309223bcb147",
+        "filename": "h-g-wells_the-time-machine.zip",
+        "download_url": "https://codeload.github.com/standardebooks/h-g-wells_the-time-machine/zip/fbd98543d4195ffdd8dbb90facb4309223bcb147",
+        "sha256": "3fcb2f1ee40f6234a40003e004121841d986eb9e51306b5917f2559b42f6270f",
+        "transcription_url": "https://www.gutenberg.org/ebooks/35",
+        "historical_scan_url": "https://books.google.com/books?id=Y0pAAQAAIAAJ",
+        "colophon_url": "https://github.com/standardebooks/h-g-wells_the-time-machine/blob/fbd98543d4195ffdd8dbb90facb4309223bcb147/src/epub/text/colophon.xhtml"
+      },
+      "notes": {
+        "description": "Epílogo y nota editorial anónima ya impresa en The New Review, 1895, p. 460.",
+        "evidence_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Time_Machine_by_H._G._Wells_%28The_New_Review%2C_January-May_1895%29.pdf"
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto con título y autor. Sin imagen de cubierta ni tipografías incrustadas.",
+        "excluded_art": {
+          "title": "The Black Marble Clock",
+          "artist": "Paul Cézanne",
+          "year_as_credited": 1870,
+          "evidence_url": "https://github.com/standardebooks/h-g-wells_the-time-machine/blob/fbd98543d4195ffdd8dbb90facb4309223bcb147/src/epub/text/colophon.xhtml"
+        }
+      },
+      "illustrations": {
+        "included": 0,
+        "description": "No hay ilustraciones interiores en esta edición de fuente."
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Patrimonio cultural común para el texto de H. G. Wells (†1946), arts. 10 y 11. Se conserva la paternidad y la integridad del texto fuente. Texto de la nota editorial anónima publicado en 1895; rige el art. 13 de la ley chilena.",
+        "US": "Texto histórico publicado en 1895, fuera del plazo máximo de 95 años. Markup y aportes modernos bajo CC0.",
+        "terms": "Aportes de Standard Ebooks bajo CC0 1.0. La portada tipográfica, las marcas gráficas editoriales y los resúmenes de catálogo del proveedor no se incorporan al derivado.",
+        "embedded_notice": "Historical text in the public domain in Chile and the United States. Based on the Standard Ebooks edition. Standard Ebooks contributions are dedicated under CC0 1.0.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.copyright.gov/title17/92chap1.html#104a",
+          "https://standardebooks.org/about/standard-ebooks-and-the-public-domain",
+          "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "https://github.com/standardebooks/h-g-wells_the-time-machine/blob/fbd98543d4195ffdd8dbb90facb4309223bcb147/LICENSE.md",
+          "https://digital.library.illinois.edu/items/92fbdfd0-b67e-013d-5129-02d0d7bfd6e4-8",
+          "https://digital.library.illinois.edu/items/92fbdfd0-b67e-013d-5129-02d0d7bfd6e4-8"
+        ]
+      },
+      "path": "outputs/demo-publica/en/the-time-machine-en.epub",
+      "bytes": 87944,
+      "sha256": "033cf64ffd13f434088a5705ee78235d0d9d0f3cfc266a2f862280fe20617d44"
+    },
+    {
+      "id": "anne-of-green-gables-en",
+      "work_id": "anne-of-green-gables",
+      "title": "Anne of Green Gables",
+      "language": "en",
+      "epub_language": "en-GB",
+      "author": {
+        "name": "L. M. Montgomery",
+        "born": 1874,
+        "died": 1942,
+        "evidence_url": "https://catalog.hathitrust.org/Record/100762551"
+      },
+      "translator": null,
+      "original_publication": {
+        "year": 1908,
+        "imprint": "L. C. Page & Company, Boston",
+        "evidence_url": "https://catalog.hathitrust.org/Record/100762551"
+      },
+      "edition": {
+        "publication_year": 2019,
+        "publisher": "Standard Ebooks",
+        "description": "Derivado local de la fuente versionada, EPUB 3 con índice XHTML y NCX.",
+        "historical_scan": "L. C. Page & Company, Boston, 1908"
+      },
+      "genre": "vida cotidiana y crecimiento",
+      "source_word_count": 102897,
+      "chapters": 38,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "standard-ebooks",
+        "credit_url": "https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables",
+        "commit": "c721547c6b8cb908391b562dd3db67208177d83d",
+        "filename": "l-m-montgomery_anne-of-green-gables.zip",
+        "download_url": "https://codeload.github.com/standardebooks/l-m-montgomery_anne-of-green-gables/zip/c721547c6b8cb908391b562dd3db67208177d83d",
+        "sha256": "6d83ee29570a35d92a3abf95964f2e4f3f7a558263a53593ae5b3c5c87b42dba",
+        "transcription_url": "https://www.gutenberg.org/ebooks/45",
+        "historical_scan_url": "https://catalog.hathitrust.org/Record/100762551",
+        "colophon_url": "https://github.com/standardebooks/l-m-montgomery_anne-of-green-gables/blob/c721547c6b8cb908391b562dd3db67208177d83d/src/epub/text/colophon.xhtml"
+      },
+      "notes": {
+        "description": "Sin prólogo ni notas en el archivo. El escaneo histórico tiene ilustraciones de M. A. y W. A. J. Claus que no están en el EPUB.",
+        "evidence_url": "https://github.com/standardebooks/l-m-montgomery_anne-of-green-gables/blob/c721547c6b8cb908391b562dd3db67208177d83d/src/epub/text"
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto con título y autor. Sin imagen de cubierta ni tipografías incrustadas.",
+        "excluded_art": {
+          "title": "A Girl with Flowers on the Grass",
+          "artist": "Jacob Maris",
+          "year_as_credited": 1878,
+          "evidence_url": "https://github.com/standardebooks/l-m-montgomery_anne-of-green-gables/blob/c721547c6b8cb908391b562dd3db67208177d83d/src/epub/text/colophon.xhtml"
+        }
+      },
+      "illustrations": {
+        "included": 0,
+        "description": "No hay ilustraciones interiores en esta edición de fuente."
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Patrimonio cultural común para el texto de L. M. Montgomery (†1942), arts. 10 y 11. Se conserva la paternidad y la integridad del texto fuente.",
+        "US": "Texto histórico publicado en 1908, fuera del plazo máximo de 95 años. Markup y aportes modernos bajo CC0.",
+        "terms": "Aportes de Standard Ebooks bajo CC0 1.0. La portada tipográfica, las marcas gráficas editoriales y los resúmenes de catálogo del proveedor no se incorporan al derivado.",
+        "embedded_notice": "Historical text in the public domain in Chile and the United States. Based on the Standard Ebooks edition. Standard Ebooks contributions are dedicated under CC0 1.0.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.copyright.gov/title17/92chap1.html#104a",
+          "https://standardebooks.org/about/standard-ebooks-and-the-public-domain",
+          "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "https://github.com/standardebooks/l-m-montgomery_anne-of-green-gables/blob/c721547c6b8cb908391b562dd3db67208177d83d/LICENSE.md",
+          "https://catalog.hathitrust.org/Record/100762551",
+          "https://catalog.hathitrust.org/Record/100762551"
+        ]
+      },
+      "path": "outputs/demo-publica/en/anne-of-green-gables-en.epub",
+      "bytes": 271991,
+      "sha256": "93f266bb902c6260b1fb66aa93760ba2a677ca50d21e2ec900516b1fec88504d"
+    },
+    {
+      "id": "a-christmas-carol-en",
+      "work_id": "a-christmas-carol",
+      "title": "A Christmas Carol",
+      "language": "en",
+      "epub_language": "en-GB",
+      "author": {
+        "name": "Charles Dickens",
+        "born": 1812,
+        "died": 1870,
+        "evidence_url": "https://www.themorgan.org/printed-books/168652"
+      },
+      "translator": null,
+      "original_publication": {
+        "year": 1843,
+        "imprint": "Chapman & Hall, Londres",
+        "evidence_url": "https://www.themorgan.org/printed-books/168652"
+      },
+      "edition": {
+        "publication_year": 2018,
+        "publisher": "Standard Ebooks",
+        "description": "Derivado local de la fuente versionada, EPUB 3 con índice XHTML y NCX.",
+        "historical_scan": "G. P. Putnam's Sons, Nueva York, 1900"
+      },
+      "genre": "cuento de fantasmas",
+      "source_word_count": 28626,
+      "chapters": 5,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "standard-ebooks",
+        "credit_url": "https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol",
+        "commit": "2b37c1cc1f4db69e7806816893afbadba9fa8da7",
+        "filename": "charles-dickens_a-christmas-carol.zip",
+        "download_url": "https://codeload.github.com/standardebooks/charles-dickens_a-christmas-carol/zip/2b37c1cc1f4db69e7806816893afbadba9fa8da7",
+        "sha256": "949d2a86a4077def898e3771a5f765ac57a71aec11e8279565a98dd675ee9949",
+        "transcription_url": "https://www.gutenberg.org/ebooks/24022",
+        "historical_scan_url": "https://archive.org/details/christmascarol00dick2",
+        "colophon_url": "https://github.com/standardebooks/charles-dickens_a-christmas-carol/blob/2b37c1cc1f4db69e7806816893afbadba9fa8da7/src/epub/text/colophon.xhtml"
+      },
+      "notes": {
+        "description": "Prefacio de Dickens documentado en su manuscrito de 1843. El EPUB fuente no trae ilustraciones de John Leech.",
+        "evidence_url": "https://www.themorgan.org/collections/works/dickens/ChristmasCarol/3"
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto con título y autor. Sin imagen de cubierta ni tipografías incrustadas.",
+        "excluded_art": {
+          "title": "The New Bonnet",
+          "artist": "Eastman Johnson",
+          "year_as_credited": 1876,
+          "evidence_url": "https://github.com/standardebooks/charles-dickens_a-christmas-carol/blob/2b37c1cc1f4db69e7806816893afbadba9fa8da7/src/epub/text/colophon.xhtml"
+        }
+      },
+      "illustrations": {
+        "included": 0,
+        "description": "No hay ilustraciones interiores en esta edición de fuente."
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Patrimonio cultural común para el texto de Charles Dickens (†1870), arts. 10 y 11. Se conserva la paternidad y la integridad del texto fuente.",
+        "US": "Texto histórico publicado en 1843, fuera del plazo máximo de 95 años. Markup y aportes modernos bajo CC0.",
+        "terms": "Aportes de Standard Ebooks bajo CC0 1.0. La portada tipográfica, las marcas gráficas editoriales y los resúmenes de catálogo del proveedor no se incorporan al derivado.",
+        "embedded_notice": "Historical text in the public domain in Chile and the United States. Based on the Standard Ebooks edition. Standard Ebooks contributions are dedicated under CC0 1.0.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.copyright.gov/title17/92chap1.html#104a",
+          "https://standardebooks.org/about/standard-ebooks-and-the-public-domain",
+          "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "https://github.com/standardebooks/charles-dickens_a-christmas-carol/blob/2b37c1cc1f4db69e7806816893afbadba9fa8da7/LICENSE.md",
+          "https://www.themorgan.org/printed-books/168652",
+          "https://www.themorgan.org/printed-books/168652"
+        ]
+      },
+      "path": "outputs/demo-publica/en/a-christmas-carol-en.epub",
+      "bytes": 73939,
+      "sha256": "b547567362cb4a2cf929a88849ed1ddf174de48e47453727647afa5a16a85e2d"
+    },
+    {
+      "id": "the-hound-of-the-baskervilles-en",
+      "work_id": "the-hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "language": "en",
+      "epub_language": "en-GB",
+      "author": {
+        "name": "Arthur Conan Doyle",
+        "born": 1859,
+        "died": 1930,
+        "evidence_url": "https://www.loc.gov/pictures/resource/cph.3b25673/"
+      },
+      "translator": null,
+      "original_publication": {
+        "year": 1902,
+        "imprint": "George Newnes, Londres, y McClure, Phillips & Co., Nueva York. La serialización comenzó en 1901.",
+        "evidence_url": "https://blogs.loc.gov/headlinesandheroes/2021/10/serial-fiction-part-1/"
+      },
+      "edition": {
+        "publication_year": 2017,
+        "publisher": "Standard Ebooks",
+        "description": "Derivado local de la fuente versionada, EPUB 3 con índice XHTML y NCX.",
+        "historical_scan": "London, George Newnes, 1902"
+      },
+      "genre": "misterio",
+      "source_word_count": 59285,
+      "chapters": 15,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "standard-ebooks",
+        "credit_url": "https://standardebooks.org/ebooks/arthur-conan-doyle/the-hound-of-the-baskervilles",
+        "commit": "3d822a080a0c805d559b71b1376ee903d2b50875",
+        "filename": "arthur-conan-doyle_the-hound-of-the-baskervilles.zip",
+        "download_url": "https://codeload.github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/zip/3d822a080a0c805d559b71b1376ee903d2b50875",
+        "sha256": "8cc2d1bed43c8fe3f4dacd24f4fa888fb0cc4b2ae144ca7185ffaa276895fe34",
+        "transcription_url": "https://www.gutenberg.org/ebooks/2852",
+        "historical_scan_url": "https://archive.org/details/houndofbaskervil00doyluoft",
+        "colophon_url": "https://github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/blob/3d822a080a0c805d559b71b1376ee903d2b50875/src/epub/text/colophon.xhtml"
+      },
+      "notes": {
+        "description": "Dedicatoria de Doyle. Las ilustraciones de Sidney Paget del escaneo no están en el EPUB.",
+        "evidence_url": "https://github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/blob/3d822a080a0c805d559b71b1376ee903d2b50875/src/epub/text"
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto con título y autor. Sin imagen de cubierta ni tipografías incrustadas.",
+        "excluded_art": {
+          "title": "Riesengebirgslandschaft mit aufsteigendem Nebel",
+          "artist": "Caspar David Friedrich",
+          "year_as_credited": 1820,
+          "evidence_url": "https://github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/blob/3d822a080a0c805d559b71b1376ee903d2b50875/src/epub/text/colophon.xhtml"
+        }
+      },
+      "illustrations": {
+        "included": 0,
+        "description": "No hay ilustraciones interiores en esta edición de fuente."
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Patrimonio cultural común para el texto de Arthur Conan Doyle (†1930), arts. 10 y 11. Se conserva la paternidad y la integridad del texto fuente.",
+        "US": "Texto histórico publicado en 1902, fuera del plazo máximo de 95 años. Markup y aportes modernos bajo CC0.",
+        "terms": "Aportes de Standard Ebooks bajo CC0 1.0. La portada tipográfica, las marcas gráficas editoriales y los resúmenes de catálogo del proveedor no se incorporan al derivado.",
+        "embedded_notice": "Historical text in the public domain in Chile and the United States. Based on the Standard Ebooks edition. Standard Ebooks contributions are dedicated under CC0 1.0.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.copyright.gov/title17/92chap1.html#104a",
+          "https://standardebooks.org/about/standard-ebooks-and-the-public-domain",
+          "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "https://github.com/standardebooks/arthur-conan-doyle_the-hound-of-the-baskervilles/blob/3d822a080a0c805d559b71b1376ee903d2b50875/LICENSE.md",
+          "https://blogs.loc.gov/headlinesandheroes/2021/10/serial-fiction-part-1/",
+          "https://www.loc.gov/pictures/resource/cph.3b25673/"
+        ]
+      },
+      "path": "outputs/demo-publica/en/the-hound-of-the-baskervilles-en.epub",
+      "bytes": 149519,
+      "sha256": "07a94eca5c3b3add0e739e90b5de855858a7e9f9cf47e6d34e829dd70faec881"
+    },
+    {
+      "id": "treasure-island-es-caballero-1901",
+      "work_id": "treasure-island",
+      "title": "La isla del tesoro",
+      "language": "es",
+      "epub_language": "es",
+      "author": {
+        "name": "Robert Louis Stevenson",
+        "born": 1850,
+        "died": 1894,
+        "evidence_url": "https://www.loc.gov/item/50041964/"
+      },
+      "translator": {
+        "name": "Manuel Caballero",
+        "born": 1849,
+        "died": 1926,
+        "translation_first_publication_year": 1886,
+        "evidence_url": "https://www.elem.mx/autor/datos/2922"
+      },
+      "original_publication": {
+        "year": 1883,
+        "imprint": "Cassell, Londres y Nueva York",
+        "evidence_url": "https://www.loc.gov/item/50041964/"
+      },
+      "edition": {
+        "publication_year": 1901,
+        "edition_number": 5,
+        "publisher": "D. Appleton y Compañía, Nueva York",
+        "description": "Texto de la quinta edición, digitalizado por Distributed Proofreaders. Derivado local EPUB 3 con índice XHTML y NCX."
+      },
+      "genre": "aventura marítima",
+      "chapters": 34,
+      "modified": "2026-11-21T00:00:00Z",
+      "source": {
+        "kind": "project-gutenberg-caballero",
+        "credit_url": "https://es.wikisource.org/wiki/Archivo:La_Isla_del_Tesoro_-_Caballero_1901.djvu",
+        "filename": "pglaf-45438-h.htm",
+        "download_url": "https://gutenberg.pglaf.org/4/5/4/3/45438/45438-h/45438-h.htm",
+        "sha256": "cf082abe09ab887d4a5a1cf8cfc181d89d3e3bb8f4ee50b8380396cddc245034",
+        "record_url": "https://www.gutenberg.org/ebooks/45438",
+        "historical_scan_url": "https://es.wikisource.org/wiki/Archivo:La_Isla_del_Tesoro_-_Caballero_1901.djvu",
+        "transcription_credits": [
+          "Mark C. Orton",
+          "Chuck Greif",
+          "Distributed Proofreaders"
+        ]
+      },
+      "notes": {
+        "description": "Prólogo firmado por Caballero, fechado en julio de 1886, y seis notas históricas del traductor. Se respetan la ortografía y las correcciones de la transcripción fuente; se omiten sus añadidos editoriales, el listado de erratas y los avisos comerciales históricos.",
+        "evidence_urls": [
+          "https://www.gutenberg.org/ebooks/45438",
+          "https://www.gutenberg.org/cache/epub/45438/pg45438-images.html",
+          "https://es.wikisource.org/wiki/Archivo:La_Isla_del_Tesoro_-_Caballero_1901.djvu"
+        ]
+      },
+      "cover": {
+        "description": "Portadilla XHTML local de texto. Sin portada de la transcripción, titular de marca ni tipografías incrustadas.",
+        "evidence_url": "https://www.gutenberg.org/ebooks/45438"
+      },
+      "illustrations": {
+        "included": 0,
+        "description": "Se excluyen el mapa, ilustraciones y ornamentos de atribución no verificada para esta edición, junto con sus leyendas gráficas.",
+        "evidence_url": "https://es.wikisource.org/wiki/Archivo:La_Isla_del_Tesoro_-_Caballero_1901.djvu"
+      },
+      "rights": {
+        "territories": [
+          "CL",
+          "US"
+        ],
+        "CL": "Obra de Stevenson (†1894), traducción, prólogo y notas de Caballero (†1926) con plazos de vida más 70 años agotados. Respetar atribución e integridad en virtud de los arts. 10, 11 y 12 de la Ley 17.336.",
+        "US": "El original de 1883 y la quinta edición de la traducción publicada por Appleton en Nueva York en 1901 superaron el plazo máximo de 95 años, incluida la traducción iniciada en edición de 1886.",
+        "terms": "El EPUB contiene el texto histórico y formato local. Se excluyeron cabeceras, licencia de marca, portadilla moderna, ilustraciones y demás elementos editoriales. El registro de procedencia conserva los créditos de la transcripción fuera del EPUB.",
+        "embedded_notice": "Texto, traducción, prólogo y notas históricos en el patrimonio cultural común en Chile y en el dominio público en Estados Unidos. Quinta edición, D. Appleton y Compañía, Nueva York, 1901.",
+        "evidence_urls": [
+          "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+          "https://www.copyright.gov/title17/92chap3.html",
+          "https://www.gutenberg.org/policy/license.html",
+          "https://dev.gutenberg.org/help/mirroring.html",
+          "https://www.gutenberg.org/ebooks/45438",
+          "https://es.wikisource.org/wiki/Archivo:La_Isla_del_Tesoro_-_Caballero_1901.djvu",
+          "https://www.elem.mx/autor/datos/2922",
+          "https://www.loc.gov/item/50041964/"
+        ]
+      },
+      "path": "outputs/demo-publica/en/treasure-island-es-caballero-1901.epub",
+      "bytes": 260493,
+      "sha256": "b308b24a460d40b33a5fe5dec710fcfdb4e46d405ad881c277212bb19fb58a88"
+    }
+  ],
+  "verification": {
+    "tool": "W3C EPUBCheck 5.4.0",
+    "errors": 0,
+    "warnings": 0,
+    "checked_editions": 7,
+    "evidence_url": "https://github.com/w3c/epubcheck/releases/tag/v5.4.0"
+  }
+}

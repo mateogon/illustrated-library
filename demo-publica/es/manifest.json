@@ -1,0 +1,338 @@
+{
+  "checked_on": "2026-11-21",
+  "scope": "Demo local de texto. Verificación de las capas incluidas en Chile y Estados Unidos.",
+  "rights_sources": {
+    "chile": "https://www.bcn.cl/leychile/navegar?idNorma=28933",
+    "us_term": "https://www.copyright.gov/circs/circ15a.pdf",
+    "us_restoration_term": "https://uscode.house.gov/us/usc/119-118/t17/s104A/",
+    "digital_source_terms": "https://www.gutenberg.org/policy/permission"
+  },
+  "editions": [
+    {
+      "id": "sub-terra-es",
+      "work_id": "sub-terra",
+      "title": "Sub terra: cuadros mineros",
+      "language": "es",
+      "author": "Baldomero Lillo",
+      "translator": null,
+      "path": "outputs/demo-publica/es/sub-terra-es.epub",
+      "sources": {
+        "catalog": "https://www.memoriachilena.gob.cl/602/w3-article-8007.html",
+        "facsimile": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0005166.pdf",
+        "proofread_index": "https://es.wikisource.org/wiki/Índice:Sub_Terra.pdf",
+        "transcription": "https://es.wikisource.org/wiki/Sub_terra_(1904)",
+        "transcription_index_revision": "https://es.wikisource.org/w/index.php?title=Sub_terra_(1904)&oldid=1254136",
+        "transcription_license": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "bibliography": "Baldomero Lillo (1867–1923). Sub terra: cuadros mineros. Santiago, Imprenta Moderna, 1904. Primera edición, 221 páginas. Biblioteca Nacional de Chile, MC0005166, n.º sistema 83809. Exportación de Wikisource de 2026-11-21.",
+      "layers": {
+        "text": "Los ocho cuentos de 1904 en su orden impreso y con la ortografía de la transcripción. El índice de Wikisource marca todas las páginas corregidas y algunas aún sin validación doble. El EPUB usa el índice navegable de los ocho cuentos.",
+        "notes": "Conserva la nota histórica de «Juan Fariña» sobre el certamen. Retira navegación, números de página y notas del conversor. Añade atribuciones y condiciones de la transcripción como página final.",
+        "cover": "Se excluye la carátula del exportador. El facsímil original se enlaza en la ficha.",
+        "graphics": "Se excluyen las imágenes decorativas y los recortes facsimilares. Se conservan los encabezados transcritos."
+      },
+      "rights": {
+        "CL": "El registro de la Biblioteca Nacional identifica el impreso como patrimonio cultural común. Se respeta la paternidad y el texto en virtud del art. 11 de la Ley 17.336. La transcripción se reempaca con CC BY-SA 3.0, ofrecida explícitamente por el exportador.",
+        "US": "El impreso de 1904 agota el plazo máximo ordinario, incluso si se considerara la restauración del título extranjero. Los aportes a la transcripción se ofrecen en CC BY-SA 3.0. Mantener la atribución y compartir esta adaptación de la transcripción bajo la misma licencia."
+      },
+      "recipe": {
+        "filename": "subterra-export.epub",
+        "url": "https://ws-export.wmcloud.org/?format=epub&lang=es&page=Sub_terra_%281904%29",
+        "omit": "figure, .pagenum, .mw-cite-backlink, img, script, style",
+        "sections": 8,
+        "generated_export": true,
+        "sha256": "d4d7fbcce3e31164254f7e7da39f54d1e605934aed24830c1c6b6bf4d92e2d78",
+        "first": 2,
+        "last": 9,
+        "selector": "body > section",
+        "titles_by_spine": {
+          "8": "JUAN FARIÑA"
+        }
+      },
+      "reader_credit": {
+        "title": "Créditos de la edición",
+        "xhtml": "<h1>Créditos de la edición</h1><p>Baldomero Lillo. <i>Sub terra: cuadros mineros</i>. Santiago, Imprenta Moderna, 1904. Facsímil de la <a href=\"https://www.memoriachilena.gob.cl/602/w3-article-8007.html\">Biblioteca Nacional de Chile, Memoria Chilena (MC0005166)</a>. Transcripción y <a href=\"https://es.wikisource.org/wiki/Índice:Sub_Terra.pdf\">páginas corregidas</a> de <a href=\"https://es.wikisource.org/wiki/Sub_terra_(1904)\">Wikisource en español</a>. Colaboradores listados en la exportación: LadyInGrey, LadyBots, Isha 2, Zeroth, Aleator, Silvestre, Shooke, Ignacio Rodríguez, Rxy, Carolinitaa, Elton, Alice20052, DARIO SEVERI, Lin linao, Inductiveload y Alien333. Esta edición adapta el EPUB de Wikisource a un formato de texto sin su maquetación, elementos gráficos ni paginación. La adaptación de la transcripción se comparte bajo <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Atribución-CompartirIgual 3.0</a>.</p>"
+      },
+      "bytes": 210820,
+      "sha256": "e826f4d2994c950726a8e57df0ae6cac495a24a11d49f43a158892de7f695a80"
+    },
+    {
+      "id": "leyendas-becquer-es",
+      "work_id": "leyendas-becquer",
+      "title": "Leyendas (edición de 1912)",
+      "language": "es",
+      "author": "Gustavo Adolfo Bécquer",
+      "translator": null,
+      "path": "outputs/demo-publica/es/leyendas-becquer-es.epub",
+      "sources": {
+        "catalog": "https://www.gutenberg.org/ebooks/53552",
+        "text": "https://www.gutenberg.org/cache/epub/53552/pg53552-images.html",
+        "facsimile": "https://archive.org/details/obrasescogidas00bcqu",
+        "bibliographic_reference": "https://www.cervantesvirtual.com/s3/BVMC_OBRAS/00e/129/028/2b2/11d/fac/c70/021/85c/e60/64/mimes/00e12902-82b2-11df-acc7-002185ce6064_2.html"
+      },
+      "bibliography": "Gustavo Adolfo Bécquer (1836–1870). «Leyendas», en Obras escogidas, Edición del Monumento. Madrid, Librería de Fernando Fé / Imprenta Española, 1912. Texto digital n.º 53552, 2016; revisión declarada 2024. Original en español.",
+      "layers": {
+        "text": "Los doce relatos de la sección «Leyendas» en el orden de 1912, con subtítulos, secciones, diálogo y versos. La selección de 1912 no reúne todas las leyendas de Bécquer.",
+        "notes": "Se excluyen el discurso preliminar de Serafín y Joaquín Álvarez Quintero, la introducción general, las Cartas desde mi celda, las Rimas, la nota técnica y los números de página. La exclusión deja los doce relatos completos.",
+        "cover": "Se excluyen la cubierta y el frontispicio de 1912 y cualquier cubierta automática.",
+        "graphics": "Se excluyen las 36 imágenes de la sección, incluidos adornos, capitulares y ornamentos de apertura y cierre. El EPUB de origen duplica las capitulares como letras textuales y estas se conservan."
+      },
+      "rights": {
+        "CL": "La prosa publicada de Bécquer (fallecido en 1870) cumple los arts. 10 y 11 de la Ley 17.336. Se evita mezclarla con aportes de otros colaboradores de la edición.",
+        "US": "Prosa publicada en el siglo XIX y incluida en la edición de 1912. Plazo de los textos agotado. El proveedor cataloga la fuente digital como dominio público en EE.UU. La procedencia digital consta por separado."
+      },
+      "recipe": {
+        "filename": "53552-full.epub",
+        "url": "https://gutenberg.pglaf.org/cache/epub/53552/pg53552-images-3.epub",
+        "omit": "figure, .figcenter, div.drop-cap, .x-ebookmaker-pageno, .pagenum, img, script, style",
+        "sections": 12,
+        "sha256": "011a50c0563cde0b5d67f07d248a0594f45b1ea29394d6ed976f6f743237a5b8",
+        "first": 6,
+        "last": 17,
+        "selector": "body > div.body"
+      },
+      "reader_credit": {
+        "title": "Edición",
+        "xhtml": "<h1>Edición</h1><p>Sección «Leyendas» de <i>Obras escogidas</i>, Edición del Monumento. Madrid, Librería de Fernando Fé, 1912.</p>"
+      },
+      "bytes": 296803,
+      "sha256": "49cba1e19c8b93760416680cac1ec8cbaf5b0c4dccf8e3ff8f60a2030513fc94"
+    },
+    {
+      "id": "leyendas-becquer-en",
+      "work_id": "leyendas-becquer",
+      "title": "Legends (twelve tales)",
+      "language": "en",
+      "author": "Gustavo Adolfo Bécquer",
+      "translator": "Cornelia Frances Bates and Katharine Lee Bates",
+      "path": "outputs/demo-publica/es/leyendas-becquer-en.epub",
+      "sources": {
+        "catalog": "https://www.gutenberg.org/ebooks/50044",
+        "text": "https://www.gutenberg.org/files/50044/50044-h/50044-h.htm",
+        "printed_edition_record": "https://lccn.loc.gov/09023730",
+        "paired_selection": "https://www.gutenberg.org/ebooks/53552"
+      },
+      "bibliography": "Gustavo Adolfo Bécquer. Twelve tales from Romantic Legends of Spain, translated by Cornelia Frances Bates (1826–1908) and Katharine Lee Bates (1859–1929), New York, Thomas Y. Crowell, 1909. Texto digital n.º 50044, 2015, revisión declarada 2024.",
+      "layers": {
+        "text": "Doce relatos completos seleccionados de la traducción de 1909. Se ordenan según sus correspondientes originales en la edición española de 1912 del lote. Se conservan los subtítulos y divisiones del texto traducido. La correspondencia es por relato.",
+        "notes": "Se excluyen el prefacio, la semblanza biográfica, el prólogo general, los nueve relatos fuera de la selección y el aparato editorial ajeno a cada relato. Se retiran las marcas de página y la nota técnica del proveedor.",
+        "cover": "Se excluye la cubierta.",
+        "graphics": "Se excluyen ilustraciones, leyendas y enlaces de ampliación."
+      },
+      "rights": {
+        "CL": "Los plazos de ambos traductores (fallecidos en 1908 y 1929) y de Bécquer (1870) ya transcurrieron conforme a los arts. 10 y 11 de la Ley 17.336. Se identifica la selección y se conserva la atribución a los dos traductores.",
+        "US": "Traducción publicada en 1909, anterior al plazo máximo. El catálogo del proveedor indica dominio público en EE.UU. Se retiran el arte y el material del proveedor."
+      },
+      "recipe": {
+        "filename": "50044-text.epub",
+        "url": "https://gutenberg.pglaf.org/cache/epub/50044/pg50044.epub",
+        "omit": "img, .figcenter, .pagenum, .x-ebookmaker-pageno, .pg-boilerplate, figure, script, style",
+        "sections": 12,
+        "split_before": [
+          "h2"
+        ],
+        "title_order": [
+          "MASTER PÉREZ THE ORGANIST",
+          "THE EMERALD EYES",
+          "THE RAY OF MOONSHINE",
+          "THREE DATES",
+          "THE WHITE DOE",
+          "THE PASSION ROSE",
+          "THE PROMISE",
+          "THE SPIRITS’ MOUNTAIN",
+          "THE GNOME",
+          "THE MISERERE",
+          "WITHERED LEAVES",
+          "THE TAVERN OF THE CATS"
+        ],
+        "sha256": "014791622e5c1bb5140b451d1d2b8fa44284a09f7b2aad69375a0a9913635953",
+        "first": 2,
+        "last": 10,
+        "selector": "body"
+      },
+      "reader_credit": {
+        "title": "Edition",
+        "xhtml": "<h1>Edition</h1><p>Twelve tales from <i>Romantic Legends of Spain</i> (1909), translated by Cornelia Frances Bates and Katharine Lee Bates, and arranged in the order of the 1912 Spanish selection.</p>"
+      },
+      "bytes": 298801,
+      "sha256": "681e1d30d1dc47b7866e050ce762f8a713c8b6904cd448d292372068cb79e4bd"
+    },
+    {
+      "id": "lazarillo-es",
+      "work_id": "lazarillo",
+      "title": "Lazarillo de Tormes",
+      "language": "es",
+      "author": "Anónimo",
+      "translator": null,
+      "path": "outputs/demo-publica/es/lazarillo-es.epub",
+      "sources": {
+        "catalog": "https://www.gutenberg.org/ebooks/320",
+        "text": "https://www.gutenberg.org/cache/epub/320/pg320-images.html"
+      },
+      "bibliography": "La vida de Lazarillo de Tormes y de sus fortunas y adversidades. Burgos, 1554, con las interpolaciones marcadas de la edición de Alcalá de Henares, 1554. Transcripción digital n.º 320, 1995; revisión declarada 2023. Sin traductor.",
+      "layers": {
+        "text": "Prólogo íntegro y siete tratados del testimonio digital. Las interpolaciones de Alcalá conservan la demarcación de la fuente.",
+        "notes": "Se incluye la indicación textual sobre la edición base y las interpolaciones. Se excluyen los avisos técnicos, cabecera y licencia del proveedor del cuerpo literario.",
+        "cover": "Portada automática del proveedor excluida.",
+        "graphics": "Sin gráficos, CSS, tipografías ni logotipos de la fuente."
+      },
+      "rights": {
+        "CL": "Patrimonio cultural común: obra anónima histórica, Ley 17.336, art. 11. Se conservan la atribución anónima y la integridad de los tratados y el prólogo.",
+        "US": "Publicaciones de 1554, con plazo agotado. Project Gutenberg declara este título de dominio público en EE.UU. Se utiliza el cuerpo histórico y se separa el catálogo de procedencia, sin asociación marcaria en el EPUB."
+      },
+      "recipe": {
+        "filename": "320-pglaf.epub",
+        "url": "https://gutenberg.pglaf.org/cache/epub/320/pg320-images-3.epub",
+        "omit": "img, header, footer, script, style",
+        "sections": 8,
+        "sha256": "39f512f0e1f1ef3864ea7d49d52ccaa45a41540a81d0e80bcfbed9bdda08cda2",
+        "first": 2,
+        "last": 9,
+        "selector": "body > div.chapter"
+      },
+      "reader_credit": {
+        "title": "Edición",
+        "xhtml": "<h1>Edición</h1><p>Texto anónimo. Edición de Burgos, 1554, con interpolaciones de la edición de Alcalá, marcadas en el texto.</p>"
+      },
+      "bytes": 118204,
+      "sha256": "77b33fc205322e4c4da38660509f9b515a07a028a6f0d7c064105a019920480b"
+    },
+    {
+      "id": "lazarillo-en",
+      "work_id": "lazarillo",
+      "title": "The Life of Lazarillo de Tormes",
+      "language": "en",
+      "author": "Anonymous",
+      "translator": "Clements Robert Markham",
+      "path": "outputs/demo-publica/es/lazarillo-en.epub",
+      "sources": {
+        "catalog": "https://www.gutenberg.org/ebooks/53489",
+        "text": "https://www.gutenberg.org/files/53489/53489-h/53489-h.htm",
+        "printed_edition_record": "https://catalogue.nli.ie/Record/vtls000389931",
+        "facsimile": "https://archive.org/details/lifeoflazarillod00markiala"
+      },
+      "bibliography": "Anonymous. The Life of Lazarillo de Tormes, His Fortunes & Adversities. Translated from the Burgos 1554 edition by Sir Clements Robert Markham (1830–1916). London, Adam and Charles Black, 1908. Texto digital n.º 53489, 2016, revisión declarada 2026.",
+      "layers": {
+        "text": "El prólogo y los episodios narrativos de Markham. El impreso de 1908 separa el nacimiento y el primer amo en dos secciones. Traduce el testimonio de Burgos; la edición en español del lote incorpora además pasajes marcados de Alcalá.",
+        "notes": "Se retiran introducción, comentarios, llamadas y notas del traductor, acotaciones marginales, índice, paginación y nota técnica. La atribución histórica a Mendoza que discute el editor queda fuera del relato. Se conserva el colofón del texto.",
+        "cover": "Se excluyen la cubierta y el frontispicio.",
+        "graphics": "Se excluyen ilustraciones, leyendas y mapa. Las ilustraciones del impreso se atribuyen a Stephen Baghot de la Bere por el registro de la National Library of Ireland."
+      },
+      "rights": {
+        "CL": "Original anónimo histórico en patrimonio cultural común. Traducción publicada en 1908 por Markham, fallecido en 1916. Plazo de los arts. 10 y 11 de la Ley 17.336 agotado para la traducción.",
+        "US": "Traducción publicada en 1908, fuera del plazo máximo. El catálogo de la fuente digital indica dominio público en EE.UU. Se usa el texto de Markham con su atribución y procedencia digital por separado."
+      },
+      "recipe": {
+        "filename": "53489-text.epub",
+        "url": "https://gutenberg.pglaf.org/cache/epub/53489/pg53489.epub",
+        "omit": ".figcenter, .caption, .sidenote, .fnanchor, .x-ebookmaker-pageno, .pagenum, img, script, style",
+        "sections": 9,
+        "sha256": "b78da81d9fc23834964d7b37cdd159cb2474652782550df20744437bf824807f",
+        "first": 9,
+        "last": 17,
+        "selector": "body > div.body"
+      },
+      "reader_credit": {
+        "title": "Edition",
+        "xhtml": "<h1>Edition</h1><p>Translated from the Burgos edition of 1554 by Sir Clements Markham. London, Adam and Charles Black, 1908.</p>"
+      },
+      "bytes": 98985,
+      "sha256": "94b772ecdb70e637107944aeed65238a779250291d0e0c0e1558f4f8d294ce4b"
+    },
+    {
+      "id": "don-quijote-es",
+      "work_id": "don-quijote",
+      "title": "Don Quijote de la Mancha",
+      "language": "es",
+      "author": "Miguel de Cervantes Saavedra",
+      "translator": null,
+      "path": "outputs/demo-publica/es/don-quijote-es.epub",
+      "sources": {
+        "catalog": "https://www.gutenberg.org/ebooks/2000",
+        "text": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm",
+        "edition_history": "https://www.bne.es/es/quijote/"
+      },
+      "bibliography": "Miguel de Cervantes Saavedra (1547–1616). Ambas partes, publicadas originalmente en Madrid por Juan de la Cuesta en 1605 y 1615. Texto digital español n.º 2000, diciembre de 1999, Joaquín Cuenca Abela y un voluntario anónimo. La ficha digital no identifica un testimonio impreso único.",
+      "layers": {
+        "text": "52 capítulos de la primera parte y 74 de la segunda, más preliminares históricos, dedicatorias, prólogos y versos presentes en el testimonio digital. Se identifican los dos volúmenes y se reconstruye el índice por capítulo. Se sigue la ortografía de la transcripción, sin corregirla.",
+        "notes": "Se mantienen tasas, aprobaciones y fe de erratas históricas. Se retiran navegación duplicada y avisos del proveedor. Las dos partes proceden del mismo testimonio digital.",
+        "cover": "Se retira la portada automática del EPUB fuente.",
+        "graphics": "Los documentos del cuerpo son textuales. Se excluyen imágenes, CSS y activos externos."
+      },
+      "rights": {
+        "CL": "Prosa y versos históricos de Cervantes, fallecido en 1616, y preliminares del siglo XVII en patrimonio cultural común. Arts. 10 y 11 de la Ley 17.336.",
+        "US": "Ambas partes y preliminares se publicaron en el siglo XVII y superan el plazo ordinario. El proveedor declara dominio público en EE.UU. Se conserva el contenido literario y se documenta el testimonio digital por separado."
+      },
+      "recipe": {
+        "filename": "2000-full.epub",
+        "url": "https://gutenberg.pglaf.org/cache/epub/2000/pg2000-images-3.epub",
+        "omit": "img, script, style, header, footer",
+        "sections": 139,
+        "split_before": [
+          "h2",
+          "h3"
+        ],
+        "sha256": "9a40acbbc8e640fa0fdc51a057ab3905676d404c4ba44090184098d4d8244fc0",
+        "first": 2,
+        "last": 13,
+        "selector": "body > div.chapter"
+      },
+      "bytes": 2288906,
+      "sha256": "bb8745d3189f5034f774b8e436e3fd0dbb61dd8d37da3281a60607e6751775e5"
+    },
+    {
+      "id": "don-quijote-en",
+      "work_id": "don-quijote",
+      "title": "Don Quixote",
+      "language": "en",
+      "author": "Miguel de Cervantes Saavedra",
+      "translator": "John Ormsby",
+      "path": "outputs/demo-publica/es/don-quijote-en.epub",
+      "sources": {
+        "catalog": "https://www.gutenberg.org/ebooks/996",
+        "text": "https://www.gutenberg.org/files/996/996-h/996-h.htm",
+        "printed_edition_record": "https://kohaopac.franzmayer.org.mx/bib/3079",
+        "us_library_edition_record": "https://www.loc.gov/item/99002078/"
+      },
+      "bibliography": "Miguel de Cervantes Saavedra. Translated by John Ormsby (1829–1895), first published in London, Smith, Elder & Co., 1885. Texto digital n.º 996, 1997, ambos volúmenes. El ejemplar concreto de la transcripción no se identifica, y el proveedor advierte que los gráficos originales del EPUB son de la edición de J. W. Clark de 1880, que usa otra traducción.",
+      "layers": {
+        "text": "52 capítulos de la primera parte y 74 de la segunda. Mantiene las dedicatorias, prólogos del autor y versos encomiásticos presentes en la fuente inglesa.",
+        "notes": "Se excluyen el ensayo introductorio de Ormsby, los índices duplicados y los avisos del proveedor. Se usa la transcripción de la traducción de Ormsby, con el alcance de los preliminares de esa fuente digital.",
+        "cover": "Se excluyen carátula, cubierta y lomo agregados por el proveedor.",
+        "graphics": "Se excluyen las imágenes de la edición de 1880 y enlaces/leyendas de ampliación, con sus marcadores en la versión fuente sin imágenes."
+      },
+      "rights": {
+        "CL": "Original (Cervantes, fallecido en 1616) y traducción (Ormsby, fallecido en 1895) con derechos patrimoniales agotados por los arts. 10 y 11 de la Ley 17.336.",
+        "US": "Traducción publicada en 1885, fuera del plazo de protección. El catálogo del proveedor declara dominio público en EE.UU. El arte de otra edición se separa del cuerpo."
+      },
+      "recipe": {
+        "filename": "996-text.epub",
+        "url": "https://gutenberg.pglaf.org/cache/epub/996/pg996.epub",
+        "omit": "img, .fig, p:has([id^=\"img_images_\"]), script, style",
+        "sections": 131,
+        "sha256": "2f993477a379096b154b10512a6d752636496660c2d7f17668eafb277951c721",
+        "first": 7,
+        "last": 137,
+        "selector": "body > div.chapter"
+      },
+      "reader_credit": {
+        "title": "Edition",
+        "xhtml": "<h1>Edition</h1><p>John Ormsby’s translation, first published in London by Smith, Elder &amp; Co., 1885.</p>"
+      },
+      "bytes": 2343921,
+      "sha256": "2c384f2a53d814c28f87bb9607a07011a751a56e3bedc7ddc8ba29c974d1c7b0"
+    }
+  ],
+  "pending": [
+    {
+      "work_id": "sub-terra",
+      "language": "en",
+      "title": "Sub terra en inglés",
+      "status": "pending",
+      "bibliography": "No se verificó una traducción integral que pueda redistribuirse. Se identificó una referencia de 2010 a una traducción aislada de «La compuerta número 12» en «Baldomero Lillo’s Miners». Una pieza suelta no sirve como par de los ocho cuentos de 1904 y su licencia de redistribución no consta.",
+      "sources": {
+        "candidate_reference": "https://www.newyorker.com/books/page-turner/baldomero-lillos-miners"
+      }
+    }
+  ]
+}

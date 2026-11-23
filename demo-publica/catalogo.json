@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "checked_territories": [
+    "CL",
+    "US"
+  ],
+  "editions": [
+    {
+      "id": "treasure-island-en",
+      "work_id": "treasure-island",
+      "title": "Treasure Island",
+      "language": "en",
+      "path": "outputs/demo-publica/en/treasure-island-en.epub",
+      "sha256": "a263833d59f171a0195669f88434e8de9d21e6e8b278f0c291f40bae6e518ffe",
+      "source_manifest": "en/manifest.json",
+      "bytes": 194977,
+      "counted_words": 68363,
+      "estimates": {
+        "4": {
+          "images": 57,
+          "Color": 14401600,
+          "BOOX": 21841240
+        },
+        "6": {
+          "images": 38,
+          "Color": 9666059,
+          "BOOX": 14625819
+        },
+        "8": {
+          "images": 29,
+          "Color": 7422908,
+          "BOOX": 11207988
+        }
+      }
+    },
+    {
+      "id": "alices-adventures-in-wonderland-en",
+      "work_id": "alices-adventures-in-wonderland",
+      "title": "Alice’s Adventures in Wonderland",
+      "language": "en",
+      "path": "outputs/demo-publica/en/alices-adventures-in-wonderland-en.epub",
+      "sha256": "0a1a85901ea11ff194b95d85768a0bfe46b95dcd4c22fc957f1c699850612314",
+      "source_manifest": "en/manifest.json",
+      "bytes": 13892533,
+      "counted_words": 26736,
+      "estimates": {
+        "4": {
+          "images": 23,
+          "Color": 19625030,
+          "BOOX": 22626990
+        },
+        "6": {
+          "images": 15,
+          "Color": 17631118,
+          "BOOX": 19588918
+        },
+        "8": {
+          "images": 12,
+          "Color": 16883401,
+          "BOOX": 18449641
+        }
+      }
+    },
+    {
+      "id": "the-time-machine-en",
+      "work_id": "the-time-machine",
+      "title": "The Time Machine",
+      "language": "en",
+      "path": "outputs/demo-publica/en/the-time-machine-en.epub",
+      "sha256": "033cf64ffd13f434088a5705ee78235d0d9d0f3cfc266a2f862280fe20617d44",
+      "source_manifest": "en/manifest.json",
+      "bytes": 87944,
+      "counted_words": 32429,
+      "estimates": {
+        "4": {
+          "images": 28,
+          "Color": 7066636,
+          "BOOX": 10721196
+        },
+        "6": {
+          "images": 19,
+          "Color": 4823485,
+          "BOOX": 7303365
+        },
+        "8": {
+          "images": 14,
+          "Color": 3577290,
+          "BOOX": 5404570
+        }
+      }
+    },
+    {
+      "id": "anne-of-green-gables-en",
+      "work_id": "anne-of-green-gables",
+      "title": "Anne of Green Gables",
+      "language": "en",
+      "path": "outputs/demo-publica/en/anne-of-green-gables-en.epub",
+      "sha256": "93f266bb902c6260b1fb66aa93760ba2a677ca50d21e2ec900516b1fec88504d",
+      "source_manifest": "en/manifest.json",
+      "bytes": 271991,
+      "counted_words": 102886,
+      "estimates": {
+        "4": {
+          "images": 86,
+          "Color": 21706545,
+          "BOOX": 32931265
+        },
+        "6": {
+          "images": 58,
+          "Color": 14727853,
+          "BOOX": 22298013
+        },
+        "8": {
+          "images": 43,
+          "Color": 10989268,
+          "BOOX": 16601628
+        }
+      }
+    },
+    {
+      "id": "a-christmas-carol-en",
+      "work_id": "a-christmas-carol",
+      "title": "A Christmas Carol",
+      "language": "en",
+      "path": "outputs/demo-publica/en/a-christmas-carol-en.epub",
+      "sha256": "b547567362cb4a2cf929a88849ed1ddf174de48e47453727647afa5a16a85e2d",
+      "source_manifest": "en/manifest.json",
+      "bytes": 73939,
+      "counted_words": 28621,
+      "estimates": {
+        "4": {
+          "images": 24,
+          "Color": 6055675,
+          "BOOX": 9188155
+        },
+        "6": {
+          "images": 16,
+          "Color": 4061763,
+          "BOOX": 6150083
+        },
+        "8": {
+          "images": 12,
+          "Color": 3064807,
+          "BOOX": 4631047
+        }
+      }
+    },
+    {
+      "id": "the-hound-of-the-baskervilles-en",
+      "work_id": "the-hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "language": "en",
+      "path": "outputs/demo-publica/en/the-hound-of-the-baskervilles-en.epub",
+      "sha256": "07a94eca5c3b3add0e739e90b5de855858a7e9f9cf47e6d34e829dd70faec881",
+      "source_manifest": "en/manifest.json",
+      "bytes": 149519,
+      "counted_words": 59297,
+      "estimates": {
+        "4": {
+          "images": 50,
+          "Color": 12611469,
+          "BOOX": 19137469
+        },
+        "6": {
+          "images": 33,
+          "Color": 8374406,
+          "BOOX": 12681566
+        },
+        "8": {
+          "images": 25,
+          "Color": 6380494,
+          "BOOX": 9643494
+        }
+      }
+    },
+    {
+      "id": "treasure-island-es-caballero-1901",
+      "work_id": "treasure-island",
+      "title": "La isla del tesoro",
+      "language": "es",
+      "path": "outputs/demo-publica/en/treasure-island-es-caballero-1901.epub",
+      "sha256": "b308b24a460d40b33a5fe5dec710fcfdb4e46d405ad881c277212bb19fb58a88",
+      "source_manifest": "en/manifest.json",
+      "bytes": 260493,
+      "counted_words": 88255,
+      "estimates": {
+        "4": {
+          "images": 74,
+          "Color": 18704179,
+          "BOOX": 28362659
+        },
+        "6": {
+          "images": 50,
+          "Color": 12722443,
+          "BOOX": 19248443
+        },
+        "8": {
+          "images": 37,
+          "Color": 9482336,
+          "BOOX": 14311576
+        }
+      }
+    },
+    {
+      "id": "sub-terra-es",
+      "work_id": "sub-terra",
+      "title": "Sub terra: cuadros mineros",
+      "language": "es",
+      "path": "outputs/demo-publica/es/sub-terra-es.epub",
+      "sha256": "e826f4d2994c950726a8e57df0ae6cac495a24a11d49f43a158892de7f695a80",
+      "source_manifest": "es/manifest.json",
+      "bytes": 210820,
+      "counted_words": 31232,
+      "estimates": {
+        "4": {
+          "images": 27,
+          "Color": 6940273,
+          "BOOX": 10464313
+        },
+        "6": {
+          "images": 18,
+          "Color": 4697122,
+          "BOOX": 7046482
+        },
+        "8": {
+          "images": 14,
+          "Color": 3700166,
+          "BOOX": 5527446
+        }
+      }
+    },
+    {
+      "id": "leyendas-becquer-es",
+      "work_id": "leyendas-becquer",
+      "title": "Leyendas (edición de 1912)",
+      "language": "es",
+      "path": "outputs/demo-publica/es/leyendas-becquer-es.epub",
+      "sha256": "49cba1e19c8b93760416680cac1ec8cbaf5b0c4dccf8e3ff8f60a2030513fc94",
+      "source_manifest": "es/manifest.json",
+      "bytes": 296803,
+      "counted_words": 47778,
+      "estimates": {
+        "4": {
+          "images": 40,
+          "Color": 10266363,
+          "BOOX": 15487163
+        },
+        "6": {
+          "images": 27,
+          "Color": 7026256,
+          "BOOX": 10550296
+        },
+        "8": {
+          "images": 20,
+          "Color": 5281583,
+          "BOOX": 7891983
+        }
+      }
+    },
+    {
+      "id": "leyendas-becquer-en",
+      "work_id": "leyendas-becquer",
+      "title": "Legends (twelve tales)",
+      "language": "en",
+      "path": "outputs/demo-publica/es/leyendas-becquer-en.epub",
+      "sha256": "681e1d30d1dc47b7866e050ce762f8a713c8b6904cd448d292372068cb79e4bd",
+      "source_manifest": "es/manifest.json",
+      "bytes": 298801,
+      "counted_words": 50090,
+      "estimates": {
+        "4": {
+          "images": 42,
+          "Color": 10766839,
+          "BOOX": 16248679
+        },
+        "6": {
+          "images": 28,
+          "Color": 7277493,
+          "BOOX": 10932053
+        },
+        "8": {
+          "images": 21,
+          "Color": 5532820,
+          "BOOX": 8273740
+        }
+      }
+    },
+    {
+      "id": "lazarillo-es",
+      "work_id": "lazarillo",
+      "title": "Lazarillo de Tormes",
+      "language": "es",
+      "path": "outputs/demo-publica/es/lazarillo-es.epub",
+      "sha256": "77b33fc205322e4c4da38660509f9b515a07a028a6f0d7c064105a019920480b",
+      "source_manifest": "es/manifest.json",
+      "bytes": 118204,
+      "counted_words": 20091,
+      "estimates": {
+        "4": {
+          "images": 17,
+          "Color": 4355267,
+          "BOOX": 6574107
+        },
+        "6": {
+          "images": 12,
+          "Color": 3109072,
+          "BOOX": 4675312
+        },
+        "8": {
+          "images": 9,
+          "Color": 2361355,
+          "BOOX": 3536035
+        }
+      }
+    },
+    {
+      "id": "lazarillo-en",
+      "work_id": "lazarillo",
+      "title": "The Life of Lazarillo de Tormes",
+      "language": "en",
+      "path": "outputs/demo-publica/es/lazarillo-en.epub",
+      "sha256": "94b772ecdb70e637107944aeed65238a779250291d0e0c0e1558f4f8d294ce4b",
+      "source_manifest": "es/manifest.json",
+      "bytes": 98985,
+      "counted_words": 17729,
+      "estimates": {
+        "4": {
+          "images": 15,
+          "Color": 3837570,
+          "BOOX": 5795370
+        },
+        "6": {
+          "images": 10,
+          "Color": 2591375,
+          "BOOX": 3896575
+        },
+        "8": {
+          "images": 8,
+          "Color": 2092897,
+          "BOOX": 3137057
+        }
+      }
+    },
+    {
+      "id": "don-quijote-es",
+      "work_id": "don-quijote",
+      "title": "Don Quijote de la Mancha",
+      "language": "es",
+      "path": "outputs/demo-publica/es/don-quijote-es.epub",
+      "sha256": "bb8745d3189f5034f774b8e436e3fd0dbb61dd8d37da3281a60607e6751775e5",
+      "source_manifest": "es/manifest.json",
+      "bytes": 2288906,
+      "counted_words": 381322,
+      "estimates": {
+        "4": {
+          "images": 318,
+          "Color": 81546908,
+          "BOOX": 123052268
+        },
+        "6": {
+          "images": 212,
+          "Color": 55127574,
+          "BOOX": 82797814
+        },
+        "8": {
+          "images": 159,
+          "Color": 41917907,
+          "BOOX": 62670587
+        }
+      }
+    },
+    {
+      "id": "don-quijote-en",
+      "work_id": "don-quijote",
+      "title": "Don Quixote",
+      "language": "en",
+      "path": "outputs/demo-publica/es/don-quijote-en.epub",
+      "sha256": "2c384f2a53d814c28f87bb9607a07011a751a56e3bedc7ddc8ba29c974d1c7b0",
+      "source_manifest": "es/manifest.json",
+      "bytes": 2343921,
+      "counted_words": 407478,
+      "estimates": {
+        "4": {
+          "images": 340,
+          "Color": 87085181,
+          "BOOX": 131461981
+        },
+        "6": {
+          "images": 227,
+          "Color": 58921174,
+          "BOOX": 88549214
+        },
+        "8": {
+          "images": 170,
+          "Color": 44714551,
+          "BOOX": 66902951
+        }
+      }
+    },
+    {
+      "id": "alicia-gutierrez-gili-1927-es",
+      "work_id": "alices-adventures-in-wonderland",
+      "title": "Alicia en el País de las Maravillas",
+      "language": "es",
+      "path": "outputs/demo-publica/traducciones/alicia-gutierrez-gili-1927-es.epub",
+      "sha256": "be760ac8102dd738a3472f35f6659369c3c01ac907d6e46c07344c9435a1ed29",
+      "source_manifest": "traducciones/manifest.json",
+      "bytes": 80475,
+      "counted_words": 27307,
+      "estimates": {
+        "4": {
+          "images": 23,
+          "Color": 5812972,
+          "BOOX": 8814932
+        },
+        "6": {
+          "images": 16,
+          "Color": 4068299,
+          "BOOX": 6156619
+        },
+        "8": {
+          "images": 12,
+          "Color": 3071343,
+          "BOOX": 4637583
+        }
+      }
+    },
+    {
+      "id": "el-cantico-de-navidad-barthe-1883-es",
+      "work_id": "a-christmas-carol",
+      "title": "El cántico de Navidad",
+      "language": "es",
+      "path": "outputs/demo-publica/traducciones/el-cantico-de-navidad-barthe-1883-es.epub",
+      "sha256": "8f7a235d2b4629d251d73eb16d3dcb23ab23f91977f1c481b33e625e8bdfb123",
+      "source_manifest": "traducciones/manifest.json",
+      "bytes": 78257,
+      "counted_words": 28965,
+      "estimates": {
+        "4": {
+          "images": 25,
+          "Color": 6309232,
+          "BOOX": 9572232
+        },
+        "6": {
+          "images": 17,
+          "Color": 4315320,
+          "BOOX": 6534160
+        },
+        "8": {
+          "images": 13,
+          "Color": 3318364,
+          "BOOX": 5015124
+        }
+      }
+    }
+  ]
+}
